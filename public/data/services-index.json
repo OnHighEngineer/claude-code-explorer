@@ -1,0 +1,124 @@
+{
+  "services": [
+    {
+      "name": "AgentSummary",
+      "file": "src/services/AgentSummary/",
+      "description": "Service: AgentSummary",
+      "category": "AgentSummary"
+    },
+    {
+      "name": "Analytics",
+      "file": "src/services/analytics/",
+      "description": "Service: analytics",
+      "category": "analytics"
+    },
+    {
+      "name": "Api",
+      "file": "src/services/api/",
+      "description": "Service: api",
+      "category": "api"
+    },
+    {
+      "name": "AutoDream",
+      "file": "src/services/autoDream/",
+      "description": "Service: autoDream",
+      "category": "autoDream"
+    },
+    {
+      "name": "Compact",
+      "file": "src/services/compact/",
+      "description": "Service: compact",
+      "category": "compact"
+    },
+    {
+      "name": "ExtractMemories",
+      "file": "src/services/extractMemories/",
+      "description": "Service: extractMemories",
+      "category": "extractMemories"
+    },
+    {
+      "name": "Lsp",
+      "file": "src/services/lsp/",
+      "description": "Service: lsp",
+      "category": "lsp"
+    },
+    {
+      "name": "MagicDocs",
+      "file": "src/services/MagicDocs/",
+      "description": "Service: MagicDocs",
+      "category": "MagicDocs"
+    },
+    {
+      "name": "Mcp",
+      "file": "src/services/mcp/",
+      "description": "Service: mcp",
+      "category": "mcp"
+    },
+    {
+      "name": "Oauth",
+      "file": "src/services/oauth/",
+      "description": "Service: oauth",
+      "category": "oauth"
+    },
+    {
+      "name": "Plugins",
+      "file": "src/services/plugins/",
+      "description": "Service: plugins",
+      "category": "plugins"
+    },
+    {
+      "name": "PolicyLimits",
+      "file": "src/services/policyLimits/",
+      "description": "Service: policyLimits",
+      "category": "policyLimits"
+    },
+    {
+      "name": "PromptSuggestion",
+      "file": "src/services/PromptSuggestion/",
+      "description": "Service: PromptSuggestion",
+      "category": "PromptSuggestion"
+    },
+    {
+      "name": "RemoteManagedSettings",
+      "file": "src/services/remoteManagedSettings/",
+      "description": "Service: remoteManagedSettings",
+      "category": "remoteManagedSettings"
+    },
+    {
+      "name": "SessionMemory",
+      "file": "src/services/SessionMemory/",
+      "description": "Service: SessionMemory",
+      "category": "SessionMemory"
+    },
+    {
+      "name": "SettingsSync",
+      "file": "src/services/settingsSync/",
+      "description": "Service: settingsSync",
+      "category": "settingsSync"
+    },
+    {
+      "name": "TeamMemorySync",
+      "file": "src/services/teamMemorySync/",
+      "description": "Service: teamMemorySync",
+      "category": "teamMemorySync"
+    },
+    {
+      "name": "Tips",
+      "file": "src/services/tips/",
+      "description": "Service: tips",
+      "category": "tips"
+    },
+    {
+      "name": "Tools",
+      "file": "src/services/tools/",
+      "description": "Service: tools",
+      "category": "tools"
+    },
+    {
+      "name": "ToolUseSummary",
+      "file": "src/services/toolUseSummary/",
+      "description": "Service: toolUseSummary",
+      "category": "toolUseSummary"
+    }
+  ]
+}

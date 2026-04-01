@@ -1,0 +1,2314 @@
+{
+  "components": [
+    {
+      "name": "AgentProgressLine",
+      "file": "src/src/components/AgentProgressLine.tsx",
+      "description": "React component: AgentProgressLine",
+      "category": "src/components"
+    },
+    {
+      "name": "AgentDetail",
+      "file": "src/src\\components\\agents/AgentDetail.tsx",
+      "description": "React component: AgentDetail",
+      "category": "src"
+    },
+    {
+      "name": "AgentEditor",
+      "file": "src/src\\components\\agents/AgentEditor.tsx",
+      "description": "React component: AgentEditor",
+      "category": "src"
+    },
+    {
+      "name": "agentFileUtils",
+      "file": "src/src\\components\\agents/agentFileUtils.ts",
+      "description": "React component: agentFileUtils",
+      "category": "src"
+    },
+    {
+      "name": "AgentNavigationFooter",
+      "file": "src/src\\components\\agents/AgentNavigationFooter.tsx",
+      "description": "React component: AgentNavigationFooter",
+      "category": "src"
+    },
+    {
+      "name": "AgentsList",
+      "file": "src/src\\components\\agents/AgentsList.tsx",
+      "description": "React component: AgentsList",
+      "category": "src"
+    },
+    {
+      "name": "AgentsMenu",
+      "file": "src/src\\components\\agents/AgentsMenu.tsx",
+      "description": "React component: AgentsMenu",
+      "category": "src"
+    },
+    {
+      "name": "ColorPicker",
+      "file": "src/src\\components\\agents/ColorPicker.tsx",
+      "description": "React component: ColorPicker",
+      "category": "src"
+    },
+    {
+      "name": "generateAgent",
+      "file": "src/src\\components\\agents/generateAgent.ts",
+      "description": "React component: generateAgent",
+      "category": "src"
+    },
+    {
+      "name": "ModelSelector",
+      "file": "src/src\\components\\agents/ModelSelector.tsx",
+      "description": "React component: ModelSelector",
+      "category": "settings"
+    },
+    {
+      "name": "CreateAgentWizard",
+      "file": "src/src\\components\\agents\\new-agent-creation/CreateAgentWizard.tsx",
+      "description": "React component: CreateAgentWizard",
+      "category": "src"
+    },
+    {
+      "name": "ColorStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/ColorStep.tsx",
+      "description": "React component: ColorStep",
+      "category": "src"
+    },
+    {
+      "name": "ConfirmStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/ConfirmStep.tsx",
+      "description": "React component: ConfirmStep",
+      "category": "src"
+    },
+    {
+      "name": "ConfirmStepWrapper",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/ConfirmStepWrapper.tsx",
+      "description": "React component: ConfirmStepWrapper",
+      "category": "src"
+    },
+    {
+      "name": "DescriptionStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/DescriptionStep.tsx",
+      "description": "React component: DescriptionStep",
+      "category": "src"
+    },
+    {
+      "name": "GenerateStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/GenerateStep.tsx",
+      "description": "React component: GenerateStep",
+      "category": "src"
+    },
+    {
+      "name": "LocationStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/LocationStep.tsx",
+      "description": "React component: LocationStep",
+      "category": "src"
+    },
+    {
+      "name": "MemoryStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/MemoryStep.tsx",
+      "description": "React component: MemoryStep",
+      "category": "src"
+    },
+    {
+      "name": "MethodStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/MethodStep.tsx",
+      "description": "React component: MethodStep",
+      "category": "src"
+    },
+    {
+      "name": "ModelStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/ModelStep.tsx",
+      "description": "React component: ModelStep",
+      "category": "settings"
+    },
+    {
+      "name": "PromptStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/PromptStep.tsx",
+      "description": "React component: PromptStep",
+      "category": "input"
+    },
+    {
+      "name": "ToolsStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/ToolsStep.tsx",
+      "description": "React component: ToolsStep",
+      "category": "src"
+    },
+    {
+      "name": "TypeStep",
+      "file": "src/src\\components\\agents\\new-agent-creation\\wizard-steps/TypeStep.tsx",
+      "description": "React component: TypeStep",
+      "category": "src"
+    },
+    {
+      "name": "ToolSelector",
+      "file": "src/src\\components\\agents/ToolSelector.tsx",
+      "description": "React component: ToolSelector",
+      "category": "src"
+    },
+    {
+      "name": "types",
+      "file": "src/src\\components\\agents/types.ts",
+      "description": "React component: types",
+      "category": "src"
+    },
+    {
+      "name": "utils",
+      "file": "src/src\\components\\agents/utils.ts",
+      "description": "React component: utils",
+      "category": "src"
+    },
+    {
+      "name": "validateAgent",
+      "file": "src/src\\components\\agents/validateAgent.ts",
+      "description": "React component: validateAgent",
+      "category": "src"
+    },
+    {
+      "name": "App",
+      "file": "src/src/components/App.tsx",
+      "description": "React component: App",
+      "category": "src/components"
+    },
+    {
+      "name": "ApproveApiKey",
+      "file": "src/src/components/ApproveApiKey.tsx",
+      "description": "React component: ApproveApiKey",
+      "category": "src/components"
+    },
+    {
+      "name": "AutoModeOptInDialog",
+      "file": "src/src/components/AutoModeOptInDialog.tsx",
+      "description": "React component: AutoModeOptInDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "AutoUpdater",
+      "file": "src/src/components/AutoUpdater.tsx",
+      "description": "React component: AutoUpdater",
+      "category": "src/components"
+    },
+    {
+      "name": "AutoUpdaterWrapper",
+      "file": "src/src/components/AutoUpdaterWrapper.tsx",
+      "description": "React component: AutoUpdaterWrapper",
+      "category": "src/components"
+    },
+    {
+      "name": "AwsAuthStatusBox",
+      "file": "src/src/components/AwsAuthStatusBox.tsx",
+      "description": "React component: AwsAuthStatusBox",
+      "category": "status"
+    },
+    {
+      "name": "BaseTextInput",
+      "file": "src/src/components/BaseTextInput.tsx",
+      "description": "React component: BaseTextInput",
+      "category": "input"
+    },
+    {
+      "name": "BashModeProgress",
+      "file": "src/src/components/BashModeProgress.tsx",
+      "description": "React component: BashModeProgress",
+      "category": "src/components"
+    },
+    {
+      "name": "BridgeDialog",
+      "file": "src/src/components/BridgeDialog.tsx",
+      "description": "React component: BridgeDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "BypassPermissionsModeDialog",
+      "file": "src/src/components/BypassPermissionsModeDialog.tsx",
+      "description": "React component: BypassPermissionsModeDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "ChannelDowngradeDialog",
+      "file": "src/src/components/ChannelDowngradeDialog.tsx",
+      "description": "React component: ChannelDowngradeDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "PluginHintMenu",
+      "file": "src/src\\components\\ClaudeCodeHint/PluginHintMenu.tsx",
+      "description": "React component: PluginHintMenu",
+      "category": "src"
+    },
+    {
+      "name": "ClaudeInChromeOnboarding",
+      "file": "src/src/components/ClaudeInChromeOnboarding.tsx",
+      "description": "React component: ClaudeInChromeOnboarding",
+      "category": "dialogs"
+    },
+    {
+      "name": "ClaudeMdExternalIncludesDialog",
+      "file": "src/src/components/ClaudeMdExternalIncludesDialog.tsx",
+      "description": "React component: ClaudeMdExternalIncludesDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "ClickableImageRef",
+      "file": "src/src/components/ClickableImageRef.tsx",
+      "description": "React component: ClickableImageRef",
+      "category": "src/components"
+    },
+    {
+      "name": "CompactSummary",
+      "file": "src/src/components/CompactSummary.tsx",
+      "description": "React component: CompactSummary",
+      "category": "src/components"
+    },
+    {
+      "name": "ConfigurableShortcutHint",
+      "file": "src/src/components/ConfigurableShortcutHint.tsx",
+      "description": "React component: ConfigurableShortcutHint",
+      "category": "src/components"
+    },
+    {
+      "name": "ConsoleOAuthFlow",
+      "file": "src/src/components/ConsoleOAuthFlow.tsx",
+      "description": "React component: ConsoleOAuthFlow",
+      "category": "src/components"
+    },
+    {
+      "name": "ContextSuggestions",
+      "file": "src/src/components/ContextSuggestions.tsx",
+      "description": "React component: ContextSuggestions",
+      "category": "src/components"
+    },
+    {
+      "name": "ContextVisualization",
+      "file": "src/src/components/ContextVisualization.tsx",
+      "description": "React component: ContextVisualization",
+      "category": "src/components"
+    },
+    {
+      "name": "CoordinatorAgentStatus",
+      "file": "src/src/components/CoordinatorAgentStatus.tsx",
+      "description": "React component: CoordinatorAgentStatus",
+      "category": "status"
+    },
+    {
+      "name": "CostThresholdDialog",
+      "file": "src/src/components/CostThresholdDialog.tsx",
+      "description": "React component: CostThresholdDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "CtrlOToExpand",
+      "file": "src/src/components/CtrlOToExpand.tsx",
+      "description": "React component: CtrlOToExpand",
+      "category": "src/components"
+    },
+    {
+      "name": "option-map",
+      "file": "src/src\\components\\CustomSelect/option-map.ts",
+      "description": "React component: option-map",
+      "category": "src"
+    },
+    {
+      "name": "select-input-option",
+      "file": "src/src\\components\\CustomSelect/select-input-option.tsx",
+      "description": "React component: select-input-option",
+      "category": "input"
+    },
+    {
+      "name": "select-option",
+      "file": "src/src\\components\\CustomSelect/select-option.tsx",
+      "description": "React component: select-option",
+      "category": "src"
+    },
+    {
+      "name": "select",
+      "file": "src/src\\components\\CustomSelect/select.tsx",
+      "description": "React component: select",
+      "category": "src"
+    },
+    {
+      "name": "SelectMulti",
+      "file": "src/src\\components\\CustomSelect/SelectMulti.tsx",
+      "description": "React component: SelectMulti",
+      "category": "src"
+    },
+    {
+      "name": "use-multi-select-state",
+      "file": "src/src\\components\\CustomSelect/use-multi-select-state.ts",
+      "description": "React component: use-multi-select-state",
+      "category": "src"
+    },
+    {
+      "name": "use-select-input",
+      "file": "src/src\\components\\CustomSelect/use-select-input.ts",
+      "description": "React component: use-select-input",
+      "category": "input"
+    },
+    {
+      "name": "use-select-navigation",
+      "file": "src/src\\components\\CustomSelect/use-select-navigation.ts",
+      "description": "React component: use-select-navigation",
+      "category": "src"
+    },
+    {
+      "name": "use-select-state",
+      "file": "src/src\\components\\CustomSelect/use-select-state.ts",
+      "description": "React component: use-select-state",
+      "category": "src"
+    },
+    {
+      "name": "Byline",
+      "file": "src/src\\components\\design-system/Byline.tsx",
+      "description": "React component: Byline",
+      "category": "src"
+    },
+    {
+      "name": "color",
+      "file": "src/src\\components\\design-system/color.ts",
+      "description": "React component: color",
+      "category": "src"
+    },
+    {
+      "name": "Dialog",
+      "file": "src/src\\components\\design-system/Dialog.tsx",
+      "description": "React component: Dialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "Divider",
+      "file": "src/src\\components\\design-system/Divider.tsx",
+      "description": "React component: Divider",
+      "category": "src"
+    },
+    {
+      "name": "FuzzyPicker",
+      "file": "src/src\\components\\design-system/FuzzyPicker.tsx",
+      "description": "React component: FuzzyPicker",
+      "category": "src"
+    },
+    {
+      "name": "KeyboardShortcutHint",
+      "file": "src/src\\components\\design-system/KeyboardShortcutHint.tsx",
+      "description": "React component: KeyboardShortcutHint",
+      "category": "src"
+    },
+    {
+      "name": "ListItem",
+      "file": "src/src\\components\\design-system/ListItem.tsx",
+      "description": "React component: ListItem",
+      "category": "src"
+    },
+    {
+      "name": "LoadingState",
+      "file": "src/src\\components\\design-system/LoadingState.tsx",
+      "description": "React component: LoadingState",
+      "category": "feedback"
+    },
+    {
+      "name": "Pane",
+      "file": "src/src\\components\\design-system/Pane.tsx",
+      "description": "React component: Pane",
+      "category": "src"
+    },
+    {
+      "name": "ProgressBar",
+      "file": "src/src\\components\\design-system/ProgressBar.tsx",
+      "description": "React component: ProgressBar",
+      "category": "src"
+    },
+    {
+      "name": "Ratchet",
+      "file": "src/src\\components\\design-system/Ratchet.tsx",
+      "description": "React component: Ratchet",
+      "category": "src"
+    },
+    {
+      "name": "StatusIcon",
+      "file": "src/src\\components\\design-system/StatusIcon.tsx",
+      "description": "React component: StatusIcon",
+      "category": "status"
+    },
+    {
+      "name": "Tabs",
+      "file": "src/src\\components\\design-system/Tabs.tsx",
+      "description": "React component: Tabs",
+      "category": "src"
+    },
+    {
+      "name": "ThemedBox",
+      "file": "src/src\\components\\design-system/ThemedBox.tsx",
+      "description": "React component: ThemedBox",
+      "category": "settings"
+    },
+    {
+      "name": "ThemedText",
+      "file": "src/src\\components\\design-system/ThemedText.tsx",
+      "description": "React component: ThemedText",
+      "category": "settings"
+    },
+    {
+      "name": "ThemeProvider",
+      "file": "src/src\\components\\design-system/ThemeProvider.tsx",
+      "description": "React component: ThemeProvider",
+      "category": "settings"
+    },
+    {
+      "name": "DesktopHandoff",
+      "file": "src/src/components/DesktopHandoff.tsx",
+      "description": "React component: DesktopHandoff",
+      "category": "src/components"
+    },
+    {
+      "name": "DesktopUpsellStartup",
+      "file": "src/src\\components\\DesktopUpsell/DesktopUpsellStartup.tsx",
+      "description": "React component: DesktopUpsellStartup",
+      "category": "src"
+    },
+    {
+      "name": "DevBar",
+      "file": "src/src/components/DevBar.tsx",
+      "description": "React component: DevBar",
+      "category": "src/components"
+    },
+    {
+      "name": "DevChannelsDialog",
+      "file": "src/src/components/DevChannelsDialog.tsx",
+      "description": "React component: DevChannelsDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "DiagnosticsDisplay",
+      "file": "src/src/components/DiagnosticsDisplay.tsx",
+      "description": "React component: DiagnosticsDisplay",
+      "category": "src/components"
+    },
+    {
+      "name": "DiffDetailView",
+      "file": "src/src\\components\\diff/DiffDetailView.tsx",
+      "description": "React component: DiffDetailView",
+      "category": "rendering"
+    },
+    {
+      "name": "DiffDialog",
+      "file": "src/src\\components\\diff/DiffDialog.tsx",
+      "description": "React component: DiffDialog",
+      "category": "rendering"
+    },
+    {
+      "name": "DiffFileList",
+      "file": "src/src\\components\\diff/DiffFileList.tsx",
+      "description": "React component: DiffFileList",
+      "category": "rendering"
+    },
+    {
+      "name": "EffortCallout",
+      "file": "src/src/components/EffortCallout.tsx",
+      "description": "React component: EffortCallout",
+      "category": "src/components"
+    },
+    {
+      "name": "EffortIndicator",
+      "file": "src/src/components/EffortIndicator.ts",
+      "description": "React component: EffortIndicator",
+      "category": "src/components"
+    },
+    {
+      "name": "ExitFlow",
+      "file": "src/src/components/ExitFlow.tsx",
+      "description": "React component: ExitFlow",
+      "category": "src/components"
+    },
+    {
+      "name": "ExportDialog",
+      "file": "src/src/components/ExportDialog.tsx",
+      "description": "React component: ExportDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "FallbackToolUseErrorMessage",
+      "file": "src/src/components/FallbackToolUseErrorMessage.tsx",
+      "description": "React component: FallbackToolUseErrorMessage",
+      "category": "messages"
+    },
+    {
+      "name": "FallbackToolUseRejectedMessage",
+      "file": "src/src/components/FallbackToolUseRejectedMessage.tsx",
+      "description": "React component: FallbackToolUseRejectedMessage",
+      "category": "messages"
+    },
+    {
+      "name": "FastIcon",
+      "file": "src/src/components/FastIcon.tsx",
+      "description": "React component: FastIcon",
+      "category": "src/components"
+    },
+    {
+      "name": "Feedback",
+      "file": "src/src/components/Feedback.tsx",
+      "description": "React component: Feedback",
+      "category": "src/components"
+    },
+    {
+      "name": "FeedbackSurvey",
+      "file": "src/src\\components\\FeedbackSurvey/FeedbackSurvey.tsx",
+      "description": "React component: FeedbackSurvey",
+      "category": "src"
+    },
+    {
+      "name": "FeedbackSurveyView",
+      "file": "src/src\\components\\FeedbackSurvey/FeedbackSurveyView.tsx",
+      "description": "React component: FeedbackSurveyView",
+      "category": "src"
+    },
+    {
+      "name": "submitTranscriptShare",
+      "file": "src/src\\components\\FeedbackSurvey/submitTranscriptShare.ts",
+      "description": "React component: submitTranscriptShare",
+      "category": "src"
+    },
+    {
+      "name": "TranscriptSharePrompt",
+      "file": "src/src\\components\\FeedbackSurvey/TranscriptSharePrompt.tsx",
+      "description": "React component: TranscriptSharePrompt",
+      "category": "input"
+    },
+    {
+      "name": "useDebouncedDigitInput",
+      "file": "src/src\\components\\FeedbackSurvey/useDebouncedDigitInput.ts",
+      "description": "React component: useDebouncedDigitInput",
+      "category": "input"
+    },
+    {
+      "name": "useFeedbackSurvey",
+      "file": "src/src\\components\\FeedbackSurvey/useFeedbackSurvey.tsx",
+      "description": "React component: useFeedbackSurvey",
+      "category": "src"
+    },
+    {
+      "name": "useMemorySurvey",
+      "file": "src/src\\components\\FeedbackSurvey/useMemorySurvey.tsx",
+      "description": "React component: useMemorySurvey",
+      "category": "src"
+    },
+    {
+      "name": "usePostCompactSurvey",
+      "file": "src/src\\components\\FeedbackSurvey/usePostCompactSurvey.tsx",
+      "description": "React component: usePostCompactSurvey",
+      "category": "src"
+    },
+    {
+      "name": "useSurveyState",
+      "file": "src/src\\components\\FeedbackSurvey/useSurveyState.tsx",
+      "description": "React component: useSurveyState",
+      "category": "src"
+    },
+    {
+      "name": "FileEditToolDiff",
+      "file": "src/src/components/FileEditToolDiff.tsx",
+      "description": "React component: FileEditToolDiff",
+      "category": "rendering"
+    },
+    {
+      "name": "FileEditToolUpdatedMessage",
+      "file": "src/src/components/FileEditToolUpdatedMessage.tsx",
+      "description": "React component: FileEditToolUpdatedMessage",
+      "category": "messages"
+    },
+    {
+      "name": "FileEditToolUseRejectedMessage",
+      "file": "src/src/components/FileEditToolUseRejectedMessage.tsx",
+      "description": "React component: FileEditToolUseRejectedMessage",
+      "category": "messages"
+    },
+    {
+      "name": "FilePathLink",
+      "file": "src/src/components/FilePathLink.tsx",
+      "description": "React component: FilePathLink",
+      "category": "src/components"
+    },
+    {
+      "name": "FullscreenLayout",
+      "file": "src/src/components/FullscreenLayout.tsx",
+      "description": "React component: FullscreenLayout",
+      "category": "src/components"
+    },
+    {
+      "name": "GlobalSearchDialog",
+      "file": "src/src/components/GlobalSearchDialog.tsx",
+      "description": "React component: GlobalSearchDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "Grove",
+      "file": "src/src\\components\\grove/Grove.tsx",
+      "description": "React component: Grove",
+      "category": "src"
+    },
+    {
+      "name": "Commands",
+      "file": "src/src\\components\\HelpV2/Commands.tsx",
+      "description": "React component: Commands",
+      "category": "src"
+    },
+    {
+      "name": "General",
+      "file": "src/src\\components\\HelpV2/General.tsx",
+      "description": "React component: General",
+      "category": "src"
+    },
+    {
+      "name": "HelpV2",
+      "file": "src/src\\components\\HelpV2/HelpV2.tsx",
+      "description": "React component: HelpV2",
+      "category": "src"
+    },
+    {
+      "name": "Fallback",
+      "file": "src/src\\components\\HighlightedCode/Fallback.tsx",
+      "description": "React component: Fallback",
+      "category": "src"
+    },
+    {
+      "name": "HighlightedCode",
+      "file": "src/src/components/HighlightedCode.tsx",
+      "description": "React component: HighlightedCode",
+      "category": "src/components"
+    },
+    {
+      "name": "HistorySearchDialog",
+      "file": "src/src/components/HistorySearchDialog.tsx",
+      "description": "React component: HistorySearchDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "HooksConfigMenu",
+      "file": "src/src\\components\\hooks/HooksConfigMenu.tsx",
+      "description": "React component: HooksConfigMenu",
+      "category": "src"
+    },
+    {
+      "name": "PromptDialog",
+      "file": "src/src\\components\\hooks/PromptDialog.tsx",
+      "description": "React component: PromptDialog",
+      "category": "input"
+    },
+    {
+      "name": "SelectEventMode",
+      "file": "src/src\\components\\hooks/SelectEventMode.tsx",
+      "description": "React component: SelectEventMode",
+      "category": "src"
+    },
+    {
+      "name": "SelectHookMode",
+      "file": "src/src\\components\\hooks/SelectHookMode.tsx",
+      "description": "React component: SelectHookMode",
+      "category": "src"
+    },
+    {
+      "name": "SelectMatcherMode",
+      "file": "src/src\\components\\hooks/SelectMatcherMode.tsx",
+      "description": "React component: SelectMatcherMode",
+      "category": "src"
+    },
+    {
+      "name": "ViewHookMode",
+      "file": "src/src\\components\\hooks/ViewHookMode.tsx",
+      "description": "React component: ViewHookMode",
+      "category": "src"
+    },
+    {
+      "name": "IdeAutoConnectDialog",
+      "file": "src/src/components/IdeAutoConnectDialog.tsx",
+      "description": "React component: IdeAutoConnectDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "IdeOnboardingDialog",
+      "file": "src/src/components/IdeOnboardingDialog.tsx",
+      "description": "React component: IdeOnboardingDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "IdeStatusIndicator",
+      "file": "src/src/components/IdeStatusIndicator.tsx",
+      "description": "React component: IdeStatusIndicator",
+      "category": "status"
+    },
+    {
+      "name": "IdleReturnDialog",
+      "file": "src/src/components/IdleReturnDialog.tsx",
+      "description": "React component: IdleReturnDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "InterruptedByUser",
+      "file": "src/src/components/InterruptedByUser.tsx",
+      "description": "React component: InterruptedByUser",
+      "category": "src/components"
+    },
+    {
+      "name": "InvalidConfigDialog",
+      "file": "src/src/components/InvalidConfigDialog.tsx",
+      "description": "React component: InvalidConfigDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "InvalidSettingsDialog",
+      "file": "src/src/components/InvalidSettingsDialog.tsx",
+      "description": "React component: InvalidSettingsDialog",
+      "category": "settings"
+    },
+    {
+      "name": "KeybindingWarnings",
+      "file": "src/src/components/KeybindingWarnings.tsx",
+      "description": "React component: KeybindingWarnings",
+      "category": "src/components"
+    },
+    {
+      "name": "LanguagePicker",
+      "file": "src/src/components/LanguagePicker.tsx",
+      "description": "React component: LanguagePicker",
+      "category": "src/components"
+    },
+    {
+      "name": "AnimatedAsterisk",
+      "file": "src/src\\components\\LogoV2/AnimatedAsterisk.tsx",
+      "description": "React component: AnimatedAsterisk",
+      "category": "src"
+    },
+    {
+      "name": "AnimatedClawd",
+      "file": "src/src\\components\\LogoV2/AnimatedClawd.tsx",
+      "description": "React component: AnimatedClawd",
+      "category": "src"
+    },
+    {
+      "name": "ChannelsNotice",
+      "file": "src/src\\components\\LogoV2/ChannelsNotice.tsx",
+      "description": "React component: ChannelsNotice",
+      "category": "src"
+    },
+    {
+      "name": "Clawd",
+      "file": "src/src\\components\\LogoV2/Clawd.tsx",
+      "description": "React component: Clawd",
+      "category": "src"
+    },
+    {
+      "name": "CondensedLogo",
+      "file": "src/src\\components\\LogoV2/CondensedLogo.tsx",
+      "description": "React component: CondensedLogo",
+      "category": "src"
+    },
+    {
+      "name": "EmergencyTip",
+      "file": "src/src\\components\\LogoV2/EmergencyTip.tsx",
+      "description": "React component: EmergencyTip",
+      "category": "src"
+    },
+    {
+      "name": "Feed",
+      "file": "src/src\\components\\LogoV2/Feed.tsx",
+      "description": "React component: Feed",
+      "category": "src"
+    },
+    {
+      "name": "FeedColumn",
+      "file": "src/src\\components\\LogoV2/FeedColumn.tsx",
+      "description": "React component: FeedColumn",
+      "category": "src"
+    },
+    {
+      "name": "feedConfigs",
+      "file": "src/src\\components\\LogoV2/feedConfigs.tsx",
+      "description": "React component: feedConfigs",
+      "category": "src"
+    },
+    {
+      "name": "GuestPassesUpsell",
+      "file": "src/src\\components\\LogoV2/GuestPassesUpsell.tsx",
+      "description": "React component: GuestPassesUpsell",
+      "category": "src"
+    },
+    {
+      "name": "LogoV2",
+      "file": "src/src\\components\\LogoV2/LogoV2.tsx",
+      "description": "React component: LogoV2",
+      "category": "src"
+    },
+    {
+      "name": "Opus1mMergeNotice",
+      "file": "src/src\\components\\LogoV2/Opus1mMergeNotice.tsx",
+      "description": "React component: Opus1mMergeNotice",
+      "category": "src"
+    },
+    {
+      "name": "OverageCreditUpsell",
+      "file": "src/src\\components\\LogoV2/OverageCreditUpsell.tsx",
+      "description": "React component: OverageCreditUpsell",
+      "category": "src"
+    },
+    {
+      "name": "VoiceModeNotice",
+      "file": "src/src\\components\\LogoV2/VoiceModeNotice.tsx",
+      "description": "React component: VoiceModeNotice",
+      "category": "src"
+    },
+    {
+      "name": "WelcomeV2",
+      "file": "src/src\\components\\LogoV2/WelcomeV2.tsx",
+      "description": "React component: WelcomeV2",
+      "category": "src"
+    },
+    {
+      "name": "LogSelector",
+      "file": "src/src/components/LogSelector.tsx",
+      "description": "React component: LogSelector",
+      "category": "src/components"
+    },
+    {
+      "name": "LspRecommendationMenu",
+      "file": "src/src\\components\\LspRecommendation/LspRecommendationMenu.tsx",
+      "description": "React component: LspRecommendationMenu",
+      "category": "src"
+    },
+    {
+      "name": "ManagedSettingsSecurityDialog",
+      "file": "src/src\\components\\ManagedSettingsSecurityDialog/ManagedSettingsSecurityDialog.tsx",
+      "description": "React component: ManagedSettingsSecurityDialog",
+      "category": "settings"
+    },
+    {
+      "name": "utils",
+      "file": "src/src\\components\\ManagedSettingsSecurityDialog/utils.ts",
+      "description": "React component: utils",
+      "category": "src"
+    },
+    {
+      "name": "Markdown",
+      "file": "src/src/components/Markdown.tsx",
+      "description": "React component: Markdown",
+      "category": "rendering"
+    },
+    {
+      "name": "MarkdownTable",
+      "file": "src/src/components/MarkdownTable.tsx",
+      "description": "React component: MarkdownTable",
+      "category": "rendering"
+    },
+    {
+      "name": "CapabilitiesSection",
+      "file": "src/src\\components\\mcp/CapabilitiesSection.tsx",
+      "description": "React component: CapabilitiesSection",
+      "category": "src"
+    },
+    {
+      "name": "ElicitationDialog",
+      "file": "src/src\\components\\mcp/ElicitationDialog.tsx",
+      "description": "React component: ElicitationDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "MCPAgentServerMenu",
+      "file": "src/src\\components\\mcp/MCPAgentServerMenu.tsx",
+      "description": "React component: MCPAgentServerMenu",
+      "category": "settings"
+    },
+    {
+      "name": "MCPListPanel",
+      "file": "src/src\\components\\mcp/MCPListPanel.tsx",
+      "description": "React component: MCPListPanel",
+      "category": "settings"
+    },
+    {
+      "name": "McpParsingWarnings",
+      "file": "src/src\\components\\mcp/McpParsingWarnings.tsx",
+      "description": "React component: McpParsingWarnings",
+      "category": "settings"
+    },
+    {
+      "name": "MCPReconnect",
+      "file": "src/src\\components\\mcp/MCPReconnect.tsx",
+      "description": "React component: MCPReconnect",
+      "category": "settings"
+    },
+    {
+      "name": "MCPRemoteServerMenu",
+      "file": "src/src\\components\\mcp/MCPRemoteServerMenu.tsx",
+      "description": "React component: MCPRemoteServerMenu",
+      "category": "settings"
+    },
+    {
+      "name": "MCPSettings",
+      "file": "src/src\\components\\mcp/MCPSettings.tsx",
+      "description": "React component: MCPSettings",
+      "category": "settings"
+    },
+    {
+      "name": "MCPStdioServerMenu",
+      "file": "src/src\\components\\mcp/MCPStdioServerMenu.tsx",
+      "description": "React component: MCPStdioServerMenu",
+      "category": "settings"
+    },
+    {
+      "name": "MCPToolDetailView",
+      "file": "src/src\\components\\mcp/MCPToolDetailView.tsx",
+      "description": "React component: MCPToolDetailView",
+      "category": "settings"
+    },
+    {
+      "name": "MCPToolListView",
+      "file": "src/src\\components\\mcp/MCPToolListView.tsx",
+      "description": "React component: MCPToolListView",
+      "category": "settings"
+    },
+    {
+      "name": "reconnectHelpers",
+      "file": "src/src\\components\\mcp\\utils/reconnectHelpers.tsx",
+      "description": "React component: reconnectHelpers",
+      "category": "src"
+    },
+    {
+      "name": "MCPServerApprovalDialog",
+      "file": "src/src/components/MCPServerApprovalDialog.tsx",
+      "description": "React component: MCPServerApprovalDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "MCPServerDesktopImportDialog",
+      "file": "src/src/components/MCPServerDesktopImportDialog.tsx",
+      "description": "React component: MCPServerDesktopImportDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "MCPServerDialogCopy",
+      "file": "src/src/components/MCPServerDialogCopy.tsx",
+      "description": "React component: MCPServerDialogCopy",
+      "category": "dialogs"
+    },
+    {
+      "name": "MCPServerMultiselectDialog",
+      "file": "src/src/components/MCPServerMultiselectDialog.tsx",
+      "description": "React component: MCPServerMultiselectDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "MemoryFileSelector",
+      "file": "src/src\\components\\memory/MemoryFileSelector.tsx",
+      "description": "React component: MemoryFileSelector",
+      "category": "src"
+    },
+    {
+      "name": "MemoryUpdateNotification",
+      "file": "src/src\\components\\memory/MemoryUpdateNotification.tsx",
+      "description": "React component: MemoryUpdateNotification",
+      "category": "src"
+    },
+    {
+      "name": "MemoryUsageIndicator",
+      "file": "src/src/components/MemoryUsageIndicator.tsx",
+      "description": "React component: MemoryUsageIndicator",
+      "category": "src/components"
+    },
+    {
+      "name": "Message",
+      "file": "src/src/components/Message.tsx",
+      "description": "React component: Message",
+      "category": "messages"
+    },
+    {
+      "name": "messageActions",
+      "file": "src/src/components/messageActions.tsx",
+      "description": "React component: messageActions",
+      "category": "messages"
+    },
+    {
+      "name": "MessageModel",
+      "file": "src/src/components/MessageModel.tsx",
+      "description": "React component: MessageModel",
+      "category": "messages"
+    },
+    {
+      "name": "MessageResponse",
+      "file": "src/src/components/MessageResponse.tsx",
+      "description": "React component: MessageResponse",
+      "category": "messages"
+    },
+    {
+      "name": "MessageRow",
+      "file": "src/src/components/MessageRow.tsx",
+      "description": "React component: MessageRow",
+      "category": "messages"
+    },
+    {
+      "name": "AdvisorMessage",
+      "file": "src/src\\components\\messages/AdvisorMessage.tsx",
+      "description": "React component: AdvisorMessage",
+      "category": "messages"
+    },
+    {
+      "name": "AssistantRedactedThinkingMessage",
+      "file": "src/src\\components\\messages/AssistantRedactedThinkingMessage.tsx",
+      "description": "React component: AssistantRedactedThinkingMessage",
+      "category": "messages"
+    },
+    {
+      "name": "AssistantTextMessage",
+      "file": "src/src\\components\\messages/AssistantTextMessage.tsx",
+      "description": "React component: AssistantTextMessage",
+      "category": "messages"
+    },
+    {
+      "name": "AssistantThinkingMessage",
+      "file": "src/src\\components\\messages/AssistantThinkingMessage.tsx",
+      "description": "React component: AssistantThinkingMessage",
+      "category": "messages"
+    },
+    {
+      "name": "AssistantToolUseMessage",
+      "file": "src/src\\components\\messages/AssistantToolUseMessage.tsx",
+      "description": "React component: AssistantToolUseMessage",
+      "category": "messages"
+    },
+    {
+      "name": "AttachmentMessage",
+      "file": "src/src\\components\\messages/AttachmentMessage.tsx",
+      "description": "React component: AttachmentMessage",
+      "category": "messages"
+    },
+    {
+      "name": "CollapsedReadSearchContent",
+      "file": "src/src\\components\\messages/CollapsedReadSearchContent.tsx",
+      "description": "React component: CollapsedReadSearchContent",
+      "category": "src"
+    },
+    {
+      "name": "CompactBoundaryMessage",
+      "file": "src/src\\components\\messages/CompactBoundaryMessage.tsx",
+      "description": "React component: CompactBoundaryMessage",
+      "category": "messages"
+    },
+    {
+      "name": "GroupedToolUseContent",
+      "file": "src/src\\components\\messages/GroupedToolUseContent.tsx",
+      "description": "React component: GroupedToolUseContent",
+      "category": "src"
+    },
+    {
+      "name": "HighlightedThinkingText",
+      "file": "src/src\\components\\messages/HighlightedThinkingText.tsx",
+      "description": "React component: HighlightedThinkingText",
+      "category": "src"
+    },
+    {
+      "name": "HookProgressMessage",
+      "file": "src/src\\components\\messages/HookProgressMessage.tsx",
+      "description": "React component: HookProgressMessage",
+      "category": "messages"
+    },
+    {
+      "name": "nullRenderingAttachments",
+      "file": "src/src\\components\\messages/nullRenderingAttachments.ts",
+      "description": "React component: nullRenderingAttachments",
+      "category": "src"
+    },
+    {
+      "name": "PlanApprovalMessage",
+      "file": "src/src\\components\\messages/PlanApprovalMessage.tsx",
+      "description": "React component: PlanApprovalMessage",
+      "category": "messages"
+    },
+    {
+      "name": "RateLimitMessage",
+      "file": "src/src\\components\\messages/RateLimitMessage.tsx",
+      "description": "React component: RateLimitMessage",
+      "category": "messages"
+    },
+    {
+      "name": "ShutdownMessage",
+      "file": "src/src\\components\\messages/ShutdownMessage.tsx",
+      "description": "React component: ShutdownMessage",
+      "category": "messages"
+    },
+    {
+      "name": "SystemAPIErrorMessage",
+      "file": "src/src\\components\\messages/SystemAPIErrorMessage.tsx",
+      "description": "React component: SystemAPIErrorMessage",
+      "category": "messages"
+    },
+    {
+      "name": "SystemTextMessage",
+      "file": "src/src\\components\\messages/SystemTextMessage.tsx",
+      "description": "React component: SystemTextMessage",
+      "category": "messages"
+    },
+    {
+      "name": "TaskAssignmentMessage",
+      "file": "src/src\\components\\messages/TaskAssignmentMessage.tsx",
+      "description": "React component: TaskAssignmentMessage",
+      "category": "messages"
+    },
+    {
+      "name": "teamMemCollapsed",
+      "file": "src/src\\components\\messages/teamMemCollapsed.tsx",
+      "description": "React component: teamMemCollapsed",
+      "category": "src"
+    },
+    {
+      "name": "teamMemSaved",
+      "file": "src/src\\components\\messages/teamMemSaved.ts",
+      "description": "React component: teamMemSaved",
+      "category": "src"
+    },
+    {
+      "name": "UserAgentNotificationMessage",
+      "file": "src/src\\components\\messages/UserAgentNotificationMessage.tsx",
+      "description": "React component: UserAgentNotificationMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserBashInputMessage",
+      "file": "src/src\\components\\messages/UserBashInputMessage.tsx",
+      "description": "React component: UserBashInputMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserBashOutputMessage",
+      "file": "src/src\\components\\messages/UserBashOutputMessage.tsx",
+      "description": "React component: UserBashOutputMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserChannelMessage",
+      "file": "src/src\\components\\messages/UserChannelMessage.tsx",
+      "description": "React component: UserChannelMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserCommandMessage",
+      "file": "src/src\\components\\messages/UserCommandMessage.tsx",
+      "description": "React component: UserCommandMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserImageMessage",
+      "file": "src/src\\components\\messages/UserImageMessage.tsx",
+      "description": "React component: UserImageMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserLocalCommandOutputMessage",
+      "file": "src/src\\components\\messages/UserLocalCommandOutputMessage.tsx",
+      "description": "React component: UserLocalCommandOutputMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserMemoryInputMessage",
+      "file": "src/src\\components\\messages/UserMemoryInputMessage.tsx",
+      "description": "React component: UserMemoryInputMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserPlanMessage",
+      "file": "src/src\\components\\messages/UserPlanMessage.tsx",
+      "description": "React component: UserPlanMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserPromptMessage",
+      "file": "src/src\\components\\messages/UserPromptMessage.tsx",
+      "description": "React component: UserPromptMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserResourceUpdateMessage",
+      "file": "src/src\\components\\messages/UserResourceUpdateMessage.tsx",
+      "description": "React component: UserResourceUpdateMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserTeammateMessage",
+      "file": "src/src\\components\\messages/UserTeammateMessage.tsx",
+      "description": "React component: UserTeammateMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserTextMessage",
+      "file": "src/src\\components\\messages/UserTextMessage.tsx",
+      "description": "React component: UserTextMessage",
+      "category": "messages"
+    },
+    {
+      "name": "RejectedPlanMessage",
+      "file": "src/src\\components\\messages\\UserToolResultMessage/RejectedPlanMessage.tsx",
+      "description": "React component: RejectedPlanMessage",
+      "category": "messages"
+    },
+    {
+      "name": "RejectedToolUseMessage",
+      "file": "src/src\\components\\messages\\UserToolResultMessage/RejectedToolUseMessage.tsx",
+      "description": "React component: RejectedToolUseMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserToolCanceledMessage",
+      "file": "src/src\\components\\messages\\UserToolResultMessage/UserToolCanceledMessage.tsx",
+      "description": "React component: UserToolCanceledMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserToolErrorMessage",
+      "file": "src/src\\components\\messages\\UserToolResultMessage/UserToolErrorMessage.tsx",
+      "description": "React component: UserToolErrorMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserToolRejectMessage",
+      "file": "src/src\\components\\messages\\UserToolResultMessage/UserToolRejectMessage.tsx",
+      "description": "React component: UserToolRejectMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserToolResultMessage",
+      "file": "src/src\\components\\messages\\UserToolResultMessage/UserToolResultMessage.tsx",
+      "description": "React component: UserToolResultMessage",
+      "category": "messages"
+    },
+    {
+      "name": "UserToolSuccessMessage",
+      "file": "src/src\\components\\messages\\UserToolResultMessage/UserToolSuccessMessage.tsx",
+      "description": "React component: UserToolSuccessMessage",
+      "category": "messages"
+    },
+    {
+      "name": "utils",
+      "file": "src/src\\components\\messages\\UserToolResultMessage/utils.tsx",
+      "description": "React component: utils",
+      "category": "src"
+    },
+    {
+      "name": "Messages",
+      "file": "src/src/components/Messages.tsx",
+      "description": "React component: Messages",
+      "category": "messages"
+    },
+    {
+      "name": "MessageSelector",
+      "file": "src/src/components/MessageSelector.tsx",
+      "description": "React component: MessageSelector",
+      "category": "messages"
+    },
+    {
+      "name": "MessageTimestamp",
+      "file": "src/src/components/MessageTimestamp.tsx",
+      "description": "React component: MessageTimestamp",
+      "category": "messages"
+    },
+    {
+      "name": "ModelPicker",
+      "file": "src/src/components/ModelPicker.tsx",
+      "description": "React component: ModelPicker",
+      "category": "settings"
+    },
+    {
+      "name": "NativeAutoUpdater",
+      "file": "src/src/components/NativeAutoUpdater.tsx",
+      "description": "React component: NativeAutoUpdater",
+      "category": "src/components"
+    },
+    {
+      "name": "NotebookEditToolUseRejectedMessage",
+      "file": "src/src/components/NotebookEditToolUseRejectedMessage.tsx",
+      "description": "React component: NotebookEditToolUseRejectedMessage",
+      "category": "messages"
+    },
+    {
+      "name": "OffscreenFreeze",
+      "file": "src/src/components/OffscreenFreeze.tsx",
+      "description": "React component: OffscreenFreeze",
+      "category": "src/components"
+    },
+    {
+      "name": "Onboarding",
+      "file": "src/src/components/Onboarding.tsx",
+      "description": "React component: Onboarding",
+      "category": "dialogs"
+    },
+    {
+      "name": "OutputStylePicker",
+      "file": "src/src/components/OutputStylePicker.tsx",
+      "description": "React component: OutputStylePicker",
+      "category": "src/components"
+    },
+    {
+      "name": "PackageManagerAutoUpdater",
+      "file": "src/src/components/PackageManagerAutoUpdater.tsx",
+      "description": "React component: PackageManagerAutoUpdater",
+      "category": "src/components"
+    },
+    {
+      "name": "Passes",
+      "file": "src/src\\components\\Passes/Passes.tsx",
+      "description": "React component: Passes",
+      "category": "src"
+    },
+    {
+      "name": "AskUserQuestionPermissionRequest",
+      "file": "src/src\\components\\permissions\\AskUserQuestionPermissionRequest/AskUserQuestionPermissionRequest.tsx",
+      "description": "React component: AskUserQuestionPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "PreviewBox",
+      "file": "src/src\\components\\permissions\\AskUserQuestionPermissionRequest/PreviewBox.tsx",
+      "description": "React component: PreviewBox",
+      "category": "src"
+    },
+    {
+      "name": "PreviewQuestionView",
+      "file": "src/src\\components\\permissions\\AskUserQuestionPermissionRequest/PreviewQuestionView.tsx",
+      "description": "React component: PreviewQuestionView",
+      "category": "src"
+    },
+    {
+      "name": "QuestionNavigationBar",
+      "file": "src/src\\components\\permissions\\AskUserQuestionPermissionRequest/QuestionNavigationBar.tsx",
+      "description": "React component: QuestionNavigationBar",
+      "category": "src"
+    },
+    {
+      "name": "QuestionView",
+      "file": "src/src\\components\\permissions\\AskUserQuestionPermissionRequest/QuestionView.tsx",
+      "description": "React component: QuestionView",
+      "category": "src"
+    },
+    {
+      "name": "SubmitQuestionsView",
+      "file": "src/src\\components\\permissions\\AskUserQuestionPermissionRequest/SubmitQuestionsView.tsx",
+      "description": "React component: SubmitQuestionsView",
+      "category": "src"
+    },
+    {
+      "name": "use-multiple-choice-state",
+      "file": "src/src\\components\\permissions\\AskUserQuestionPermissionRequest/use-multiple-choice-state.ts",
+      "description": "React component: use-multiple-choice-state",
+      "category": "src"
+    },
+    {
+      "name": "BashPermissionRequest",
+      "file": "src/src\\components\\permissions\\BashPermissionRequest/BashPermissionRequest.tsx",
+      "description": "React component: BashPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "bashToolUseOptions",
+      "file": "src/src\\components\\permissions\\BashPermissionRequest/bashToolUseOptions.tsx",
+      "description": "React component: bashToolUseOptions",
+      "category": "src"
+    },
+    {
+      "name": "ComputerUseApproval",
+      "file": "src/src\\components\\permissions\\ComputerUseApproval/ComputerUseApproval.tsx",
+      "description": "React component: ComputerUseApproval",
+      "category": "src"
+    },
+    {
+      "name": "EnterPlanModePermissionRequest",
+      "file": "src/src\\components\\permissions\\EnterPlanModePermissionRequest/EnterPlanModePermissionRequest.tsx",
+      "description": "React component: EnterPlanModePermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "ExitPlanModePermissionRequest",
+      "file": "src/src\\components\\permissions\\ExitPlanModePermissionRequest/ExitPlanModePermissionRequest.tsx",
+      "description": "React component: ExitPlanModePermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "FallbackPermissionRequest",
+      "file": "src/src\\components\\permissions/FallbackPermissionRequest.tsx",
+      "description": "React component: FallbackPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "FileEditPermissionRequest",
+      "file": "src/src\\components\\permissions\\FileEditPermissionRequest/FileEditPermissionRequest.tsx",
+      "description": "React component: FileEditPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "FilePermissionDialog",
+      "file": "src/src\\components\\permissions\\FilePermissionDialog/FilePermissionDialog.tsx",
+      "description": "React component: FilePermissionDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "ideDiffConfig",
+      "file": "src/src\\components\\permissions\\FilePermissionDialog/ideDiffConfig.ts",
+      "description": "React component: ideDiffConfig",
+      "category": "rendering"
+    },
+    {
+      "name": "permissionOptions",
+      "file": "src/src\\components\\permissions\\FilePermissionDialog/permissionOptions.tsx",
+      "description": "React component: permissionOptions",
+      "category": "dialogs"
+    },
+    {
+      "name": "useFilePermissionDialog",
+      "file": "src/src\\components\\permissions\\FilePermissionDialog/useFilePermissionDialog.ts",
+      "description": "React component: useFilePermissionDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "usePermissionHandler",
+      "file": "src/src\\components\\permissions\\FilePermissionDialog/usePermissionHandler.ts",
+      "description": "React component: usePermissionHandler",
+      "category": "dialogs"
+    },
+    {
+      "name": "FilesystemPermissionRequest",
+      "file": "src/src\\components\\permissions\\FilesystemPermissionRequest/FilesystemPermissionRequest.tsx",
+      "description": "React component: FilesystemPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "FileWritePermissionRequest",
+      "file": "src/src\\components\\permissions\\FileWritePermissionRequest/FileWritePermissionRequest.tsx",
+      "description": "React component: FileWritePermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "FileWriteToolDiff",
+      "file": "src/src\\components\\permissions\\FileWritePermissionRequest/FileWriteToolDiff.tsx",
+      "description": "React component: FileWriteToolDiff",
+      "category": "rendering"
+    },
+    {
+      "name": "hooks",
+      "file": "src/src\\components\\permissions/hooks.ts",
+      "description": "React component: hooks",
+      "category": "src"
+    },
+    {
+      "name": "NotebookEditPermissionRequest",
+      "file": "src/src\\components\\permissions\\NotebookEditPermissionRequest/NotebookEditPermissionRequest.tsx",
+      "description": "React component: NotebookEditPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "NotebookEditToolDiff",
+      "file": "src/src\\components\\permissions\\NotebookEditPermissionRequest/NotebookEditToolDiff.tsx",
+      "description": "React component: NotebookEditToolDiff",
+      "category": "rendering"
+    },
+    {
+      "name": "PermissionDecisionDebugInfo",
+      "file": "src/src\\components\\permissions/PermissionDecisionDebugInfo.tsx",
+      "description": "React component: PermissionDecisionDebugInfo",
+      "category": "dialogs"
+    },
+    {
+      "name": "PermissionDialog",
+      "file": "src/src\\components\\permissions/PermissionDialog.tsx",
+      "description": "React component: PermissionDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "PermissionExplanation",
+      "file": "src/src\\components\\permissions/PermissionExplanation.tsx",
+      "description": "React component: PermissionExplanation",
+      "category": "dialogs"
+    },
+    {
+      "name": "PermissionPrompt",
+      "file": "src/src\\components\\permissions/PermissionPrompt.tsx",
+      "description": "React component: PermissionPrompt",
+      "category": "input"
+    },
+    {
+      "name": "PermissionRequest",
+      "file": "src/src\\components\\permissions/PermissionRequest.tsx",
+      "description": "React component: PermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "PermissionRequestTitle",
+      "file": "src/src\\components\\permissions/PermissionRequestTitle.tsx",
+      "description": "React component: PermissionRequestTitle",
+      "category": "dialogs"
+    },
+    {
+      "name": "PermissionRuleExplanation",
+      "file": "src/src\\components\\permissions/PermissionRuleExplanation.tsx",
+      "description": "React component: PermissionRuleExplanation",
+      "category": "dialogs"
+    },
+    {
+      "name": "PowerShellPermissionRequest",
+      "file": "src/src\\components\\permissions\\PowerShellPermissionRequest/PowerShellPermissionRequest.tsx",
+      "description": "React component: PowerShellPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "powershellToolUseOptions",
+      "file": "src/src\\components\\permissions\\PowerShellPermissionRequest/powershellToolUseOptions.tsx",
+      "description": "React component: powershellToolUseOptions",
+      "category": "src"
+    },
+    {
+      "name": "AddPermissionRules",
+      "file": "src/src\\components\\permissions\\rules/AddPermissionRules.tsx",
+      "description": "React component: AddPermissionRules",
+      "category": "dialogs"
+    },
+    {
+      "name": "AddWorkspaceDirectory",
+      "file": "src/src\\components\\permissions\\rules/AddWorkspaceDirectory.tsx",
+      "description": "React component: AddWorkspaceDirectory",
+      "category": "src"
+    },
+    {
+      "name": "PermissionRuleDescription",
+      "file": "src/src\\components\\permissions\\rules/PermissionRuleDescription.tsx",
+      "description": "React component: PermissionRuleDescription",
+      "category": "dialogs"
+    },
+    {
+      "name": "PermissionRuleInput",
+      "file": "src/src\\components\\permissions\\rules/PermissionRuleInput.tsx",
+      "description": "React component: PermissionRuleInput",
+      "category": "input"
+    },
+    {
+      "name": "PermissionRuleList",
+      "file": "src/src\\components\\permissions\\rules/PermissionRuleList.tsx",
+      "description": "React component: PermissionRuleList",
+      "category": "dialogs"
+    },
+    {
+      "name": "RecentDenialsTab",
+      "file": "src/src\\components\\permissions\\rules/RecentDenialsTab.tsx",
+      "description": "React component: RecentDenialsTab",
+      "category": "src"
+    },
+    {
+      "name": "RemoveWorkspaceDirectory",
+      "file": "src/src\\components\\permissions\\rules/RemoveWorkspaceDirectory.tsx",
+      "description": "React component: RemoveWorkspaceDirectory",
+      "category": "src"
+    },
+    {
+      "name": "WorkspaceTab",
+      "file": "src/src\\components\\permissions\\rules/WorkspaceTab.tsx",
+      "description": "React component: WorkspaceTab",
+      "category": "src"
+    },
+    {
+      "name": "SandboxPermissionRequest",
+      "file": "src/src\\components\\permissions/SandboxPermissionRequest.tsx",
+      "description": "React component: SandboxPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "SedEditPermissionRequest",
+      "file": "src/src\\components\\permissions\\SedEditPermissionRequest/SedEditPermissionRequest.tsx",
+      "description": "React component: SedEditPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "shellPermissionHelpers",
+      "file": "src/src\\components\\permissions/shellPermissionHelpers.tsx",
+      "description": "React component: shellPermissionHelpers",
+      "category": "dialogs"
+    },
+    {
+      "name": "SkillPermissionRequest",
+      "file": "src/src\\components\\permissions\\SkillPermissionRequest/SkillPermissionRequest.tsx",
+      "description": "React component: SkillPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "useShellPermissionFeedback",
+      "file": "src/src\\components\\permissions/useShellPermissionFeedback.ts",
+      "description": "React component: useShellPermissionFeedback",
+      "category": "dialogs"
+    },
+    {
+      "name": "utils",
+      "file": "src/src\\components\\permissions/utils.ts",
+      "description": "React component: utils",
+      "category": "src"
+    },
+    {
+      "name": "WebFetchPermissionRequest",
+      "file": "src/src\\components\\permissions\\WebFetchPermissionRequest/WebFetchPermissionRequest.tsx",
+      "description": "React component: WebFetchPermissionRequest",
+      "category": "dialogs"
+    },
+    {
+      "name": "WorkerBadge",
+      "file": "src/src\\components\\permissions/WorkerBadge.tsx",
+      "description": "React component: WorkerBadge",
+      "category": "src"
+    },
+    {
+      "name": "WorkerPendingPermission",
+      "file": "src/src\\components\\permissions/WorkerPendingPermission.tsx",
+      "description": "React component: WorkerPendingPermission",
+      "category": "dialogs"
+    },
+    {
+      "name": "PrBadge",
+      "file": "src/src/components/PrBadge.tsx",
+      "description": "React component: PrBadge",
+      "category": "src/components"
+    },
+    {
+      "name": "PressEnterToContinue",
+      "file": "src/src/components/PressEnterToContinue.tsx",
+      "description": "React component: PressEnterToContinue",
+      "category": "src/components"
+    },
+    {
+      "name": "HistorySearchInput",
+      "file": "src/src\\components\\PromptInput/HistorySearchInput.tsx",
+      "description": "React component: HistorySearchInput",
+      "category": "input"
+    },
+    {
+      "name": "inputModes",
+      "file": "src/src\\components\\PromptInput/inputModes.ts",
+      "description": "React component: inputModes",
+      "category": "input"
+    },
+    {
+      "name": "inputPaste",
+      "file": "src/src\\components\\PromptInput/inputPaste.ts",
+      "description": "React component: inputPaste",
+      "category": "input"
+    },
+    {
+      "name": "IssueFlagBanner",
+      "file": "src/src\\components\\PromptInput/IssueFlagBanner.tsx",
+      "description": "React component: IssueFlagBanner",
+      "category": "src"
+    },
+    {
+      "name": "Notifications",
+      "file": "src/src\\components\\PromptInput/Notifications.tsx",
+      "description": "React component: Notifications",
+      "category": "src"
+    },
+    {
+      "name": "PromptInput",
+      "file": "src/src\\components\\PromptInput/PromptInput.tsx",
+      "description": "React component: PromptInput",
+      "category": "input"
+    },
+    {
+      "name": "PromptInputFooter",
+      "file": "src/src\\components\\PromptInput/PromptInputFooter.tsx",
+      "description": "React component: PromptInputFooter",
+      "category": "input"
+    },
+    {
+      "name": "PromptInputFooterLeftSide",
+      "file": "src/src\\components\\PromptInput/PromptInputFooterLeftSide.tsx",
+      "description": "React component: PromptInputFooterLeftSide",
+      "category": "input"
+    },
+    {
+      "name": "PromptInputFooterSuggestions",
+      "file": "src/src\\components\\PromptInput/PromptInputFooterSuggestions.tsx",
+      "description": "React component: PromptInputFooterSuggestions",
+      "category": "input"
+    },
+    {
+      "name": "PromptInputHelpMenu",
+      "file": "src/src\\components\\PromptInput/PromptInputHelpMenu.tsx",
+      "description": "React component: PromptInputHelpMenu",
+      "category": "input"
+    },
+    {
+      "name": "PromptInputModeIndicator",
+      "file": "src/src\\components\\PromptInput/PromptInputModeIndicator.tsx",
+      "description": "React component: PromptInputModeIndicator",
+      "category": "input"
+    },
+    {
+      "name": "PromptInputQueuedCommands",
+      "file": "src/src\\components\\PromptInput/PromptInputQueuedCommands.tsx",
+      "description": "React component: PromptInputQueuedCommands",
+      "category": "input"
+    },
+    {
+      "name": "PromptInputStashNotice",
+      "file": "src/src\\components\\PromptInput/PromptInputStashNotice.tsx",
+      "description": "React component: PromptInputStashNotice",
+      "category": "input"
+    },
+    {
+      "name": "SandboxPromptFooterHint",
+      "file": "src/src\\components\\PromptInput/SandboxPromptFooterHint.tsx",
+      "description": "React component: SandboxPromptFooterHint",
+      "category": "input"
+    },
+    {
+      "name": "ShimmeredInput",
+      "file": "src/src\\components\\PromptInput/ShimmeredInput.tsx",
+      "description": "React component: ShimmeredInput",
+      "category": "input"
+    },
+    {
+      "name": "useMaybeTruncateInput",
+      "file": "src/src\\components\\PromptInput/useMaybeTruncateInput.ts",
+      "description": "React component: useMaybeTruncateInput",
+      "category": "input"
+    },
+    {
+      "name": "usePromptInputPlaceholder",
+      "file": "src/src\\components\\PromptInput/usePromptInputPlaceholder.ts",
+      "description": "React component: usePromptInputPlaceholder",
+      "category": "input"
+    },
+    {
+      "name": "useShowFastIconHint",
+      "file": "src/src\\components\\PromptInput/useShowFastIconHint.ts",
+      "description": "React component: useShowFastIconHint",
+      "category": "src"
+    },
+    {
+      "name": "useSwarmBanner",
+      "file": "src/src\\components\\PromptInput/useSwarmBanner.ts",
+      "description": "React component: useSwarmBanner",
+      "category": "src"
+    },
+    {
+      "name": "utils",
+      "file": "src/src\\components\\PromptInput/utils.ts",
+      "description": "React component: utils",
+      "category": "src"
+    },
+    {
+      "name": "VoiceIndicator",
+      "file": "src/src\\components\\PromptInput/VoiceIndicator.tsx",
+      "description": "React component: VoiceIndicator",
+      "category": "src"
+    },
+    {
+      "name": "QuickOpenDialog",
+      "file": "src/src/components/QuickOpenDialog.tsx",
+      "description": "React component: QuickOpenDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "RemoteCallout",
+      "file": "src/src/components/RemoteCallout.tsx",
+      "description": "React component: RemoteCallout",
+      "category": "src/components"
+    },
+    {
+      "name": "RemoteEnvironmentDialog",
+      "file": "src/src/components/RemoteEnvironmentDialog.tsx",
+      "description": "React component: RemoteEnvironmentDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "ResumeTask",
+      "file": "src/src/components/ResumeTask.tsx",
+      "description": "React component: ResumeTask",
+      "category": "tasks"
+    },
+    {
+      "name": "SandboxConfigTab",
+      "file": "src/src\\components\\sandbox/SandboxConfigTab.tsx",
+      "description": "React component: SandboxConfigTab",
+      "category": "src"
+    },
+    {
+      "name": "SandboxDependenciesTab",
+      "file": "src/src\\components\\sandbox/SandboxDependenciesTab.tsx",
+      "description": "React component: SandboxDependenciesTab",
+      "category": "src"
+    },
+    {
+      "name": "SandboxDoctorSection",
+      "file": "src/src\\components\\sandbox/SandboxDoctorSection.tsx",
+      "description": "React component: SandboxDoctorSection",
+      "category": "src"
+    },
+    {
+      "name": "SandboxOverridesTab",
+      "file": "src/src\\components\\sandbox/SandboxOverridesTab.tsx",
+      "description": "React component: SandboxOverridesTab",
+      "category": "src"
+    },
+    {
+      "name": "SandboxSettings",
+      "file": "src/src\\components\\sandbox/SandboxSettings.tsx",
+      "description": "React component: SandboxSettings",
+      "category": "settings"
+    },
+    {
+      "name": "SandboxViolationExpandedView",
+      "file": "src/src/components/SandboxViolationExpandedView.tsx",
+      "description": "React component: SandboxViolationExpandedView",
+      "category": "src/components"
+    },
+    {
+      "name": "ScrollKeybindingHandler",
+      "file": "src/src/components/ScrollKeybindingHandler.tsx",
+      "description": "React component: ScrollKeybindingHandler",
+      "category": "src/components"
+    },
+    {
+      "name": "SearchBox",
+      "file": "src/src/components/SearchBox.tsx",
+      "description": "React component: SearchBox",
+      "category": "src/components"
+    },
+    {
+      "name": "SentryErrorBoundary",
+      "file": "src/src/components/SentryErrorBoundary.ts",
+      "description": "React component: SentryErrorBoundary",
+      "category": "src/components"
+    },
+    {
+      "name": "SessionBackgroundHint",
+      "file": "src/src/components/SessionBackgroundHint.tsx",
+      "description": "React component: SessionBackgroundHint",
+      "category": "src/components"
+    },
+    {
+      "name": "SessionPreview",
+      "file": "src/src/components/SessionPreview.tsx",
+      "description": "React component: SessionPreview",
+      "category": "src/components"
+    },
+    {
+      "name": "Config",
+      "file": "src/src\\components\\Settings/Config.tsx",
+      "description": "React component: Config",
+      "category": "src"
+    },
+    {
+      "name": "Settings",
+      "file": "src/src\\components\\Settings/Settings.tsx",
+      "description": "React component: Settings",
+      "category": "settings"
+    },
+    {
+      "name": "Status",
+      "file": "src/src\\components\\Settings/Status.tsx",
+      "description": "React component: Status",
+      "category": "status"
+    },
+    {
+      "name": "Usage",
+      "file": "src/src\\components\\Settings/Usage.tsx",
+      "description": "React component: Usage",
+      "category": "src"
+    },
+    {
+      "name": "ExpandShellOutputContext",
+      "file": "src/src\\components\\shell/ExpandShellOutputContext.tsx",
+      "description": "React component: ExpandShellOutputContext",
+      "category": "src"
+    },
+    {
+      "name": "OutputLine",
+      "file": "src/src\\components\\shell/OutputLine.tsx",
+      "description": "React component: OutputLine",
+      "category": "src"
+    },
+    {
+      "name": "ShellProgressMessage",
+      "file": "src/src\\components\\shell/ShellProgressMessage.tsx",
+      "description": "React component: ShellProgressMessage",
+      "category": "messages"
+    },
+    {
+      "name": "ShellTimeDisplay",
+      "file": "src/src\\components\\shell/ShellTimeDisplay.tsx",
+      "description": "React component: ShellTimeDisplay",
+      "category": "src"
+    },
+    {
+      "name": "ShowInIDEPrompt",
+      "file": "src/src/components/ShowInIDEPrompt.tsx",
+      "description": "React component: ShowInIDEPrompt",
+      "category": "input"
+    },
+    {
+      "name": "SkillImprovementSurvey",
+      "file": "src/src/components/SkillImprovementSurvey.tsx",
+      "description": "React component: SkillImprovementSurvey",
+      "category": "src/components"
+    },
+    {
+      "name": "SkillsMenu",
+      "file": "src/src\\components\\skills/SkillsMenu.tsx",
+      "description": "React component: SkillsMenu",
+      "category": "src"
+    },
+    {
+      "name": "FlashingChar",
+      "file": "src/src\\components\\Spinner/FlashingChar.tsx",
+      "description": "React component: FlashingChar",
+      "category": "src"
+    },
+    {
+      "name": "GlimmerMessage",
+      "file": "src/src\\components\\Spinner/GlimmerMessage.tsx",
+      "description": "React component: GlimmerMessage",
+      "category": "messages"
+    },
+    {
+      "name": "ShimmerChar",
+      "file": "src/src\\components\\Spinner/ShimmerChar.tsx",
+      "description": "React component: ShimmerChar",
+      "category": "src"
+    },
+    {
+      "name": "SpinnerAnimationRow",
+      "file": "src/src\\components\\Spinner/SpinnerAnimationRow.tsx",
+      "description": "React component: SpinnerAnimationRow",
+      "category": "feedback"
+    },
+    {
+      "name": "SpinnerGlyph",
+      "file": "src/src\\components\\Spinner/SpinnerGlyph.tsx",
+      "description": "React component: SpinnerGlyph",
+      "category": "feedback"
+    },
+    {
+      "name": "teammateSelectHint",
+      "file": "src/src\\components\\Spinner/teammateSelectHint.ts",
+      "description": "React component: teammateSelectHint",
+      "category": "src"
+    },
+    {
+      "name": "TeammateSpinnerLine",
+      "file": "src/src\\components\\Spinner/TeammateSpinnerLine.tsx",
+      "description": "React component: TeammateSpinnerLine",
+      "category": "feedback"
+    },
+    {
+      "name": "TeammateSpinnerTree",
+      "file": "src/src\\components\\Spinner/TeammateSpinnerTree.tsx",
+      "description": "React component: TeammateSpinnerTree",
+      "category": "feedback"
+    },
+    {
+      "name": "useShimmerAnimation",
+      "file": "src/src\\components\\Spinner/useShimmerAnimation.ts",
+      "description": "React component: useShimmerAnimation",
+      "category": "src"
+    },
+    {
+      "name": "useStalledAnimation",
+      "file": "src/src\\components\\Spinner/useStalledAnimation.ts",
+      "description": "React component: useStalledAnimation",
+      "category": "src"
+    },
+    {
+      "name": "utils",
+      "file": "src/src\\components\\Spinner/utils.ts",
+      "description": "React component: utils",
+      "category": "src"
+    },
+    {
+      "name": "Spinner",
+      "file": "src/src/components/Spinner.tsx",
+      "description": "React component: Spinner",
+      "category": "feedback"
+    },
+    {
+      "name": "Stats",
+      "file": "src/src/components/Stats.tsx",
+      "description": "React component: Stats",
+      "category": "src/components"
+    },
+    {
+      "name": "StatusLine",
+      "file": "src/src/components/StatusLine.tsx",
+      "description": "React component: StatusLine",
+      "category": "status"
+    },
+    {
+      "name": "StatusNotices",
+      "file": "src/src/components/StatusNotices.tsx",
+      "description": "React component: StatusNotices",
+      "category": "status"
+    },
+    {
+      "name": "colorDiff",
+      "file": "src/src\\components\\StructuredDiff/colorDiff.ts",
+      "description": "React component: colorDiff",
+      "category": "rendering"
+    },
+    {
+      "name": "Fallback",
+      "file": "src/src\\components\\StructuredDiff/Fallback.tsx",
+      "description": "React component: Fallback",
+      "category": "src"
+    },
+    {
+      "name": "StructuredDiff",
+      "file": "src/src/components/StructuredDiff.tsx",
+      "description": "React component: StructuredDiff",
+      "category": "rendering"
+    },
+    {
+      "name": "StructuredDiffList",
+      "file": "src/src/components/StructuredDiffList.tsx",
+      "description": "React component: StructuredDiffList",
+      "category": "rendering"
+    },
+    {
+      "name": "TagTabs",
+      "file": "src/src/components/TagTabs.tsx",
+      "description": "React component: TagTabs",
+      "category": "src/components"
+    },
+    {
+      "name": "TaskListV2",
+      "file": "src/src/components/TaskListV2.tsx",
+      "description": "React component: TaskListV2",
+      "category": "tasks"
+    },
+    {
+      "name": "AsyncAgentDetailDialog",
+      "file": "src/src\\components\\tasks/AsyncAgentDetailDialog.tsx",
+      "description": "React component: AsyncAgentDetailDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "BackgroundTask",
+      "file": "src/src\\components\\tasks/BackgroundTask.tsx",
+      "description": "React component: BackgroundTask",
+      "category": "tasks"
+    },
+    {
+      "name": "BackgroundTasksDialog",
+      "file": "src/src\\components\\tasks/BackgroundTasksDialog.tsx",
+      "description": "React component: BackgroundTasksDialog",
+      "category": "tasks"
+    },
+    {
+      "name": "BackgroundTaskStatus",
+      "file": "src/src\\components\\tasks/BackgroundTaskStatus.tsx",
+      "description": "React component: BackgroundTaskStatus",
+      "category": "tasks"
+    },
+    {
+      "name": "DreamDetailDialog",
+      "file": "src/src\\components\\tasks/DreamDetailDialog.tsx",
+      "description": "React component: DreamDetailDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "InProcessTeammateDetailDialog",
+      "file": "src/src\\components\\tasks/InProcessTeammateDetailDialog.tsx",
+      "description": "React component: InProcessTeammateDetailDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "RemoteSessionDetailDialog",
+      "file": "src/src\\components\\tasks/RemoteSessionDetailDialog.tsx",
+      "description": "React component: RemoteSessionDetailDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "RemoteSessionProgress",
+      "file": "src/src\\components\\tasks/RemoteSessionProgress.tsx",
+      "description": "React component: RemoteSessionProgress",
+      "category": "src"
+    },
+    {
+      "name": "renderToolActivity",
+      "file": "src/src\\components\\tasks/renderToolActivity.tsx",
+      "description": "React component: renderToolActivity",
+      "category": "src"
+    },
+    {
+      "name": "ShellDetailDialog",
+      "file": "src/src\\components\\tasks/ShellDetailDialog.tsx",
+      "description": "React component: ShellDetailDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "ShellProgress",
+      "file": "src/src\\components\\tasks/ShellProgress.tsx",
+      "description": "React component: ShellProgress",
+      "category": "src"
+    },
+    {
+      "name": "taskStatusUtils",
+      "file": "src/src\\components\\tasks/taskStatusUtils.tsx",
+      "description": "React component: taskStatusUtils",
+      "category": "tasks"
+    },
+    {
+      "name": "TeammateViewHeader",
+      "file": "src/src/components/TeammateViewHeader.tsx",
+      "description": "React component: TeammateViewHeader",
+      "category": "src/components"
+    },
+    {
+      "name": "TeamsDialog",
+      "file": "src/src\\components\\teams/TeamsDialog.tsx",
+      "description": "React component: TeamsDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "TeamStatus",
+      "file": "src/src\\components\\teams/TeamStatus.tsx",
+      "description": "React component: TeamStatus",
+      "category": "status"
+    },
+    {
+      "name": "TeleportError",
+      "file": "src/src/components/TeleportError.tsx",
+      "description": "React component: TeleportError",
+      "category": "src/components"
+    },
+    {
+      "name": "TeleportProgress",
+      "file": "src/src/components/TeleportProgress.tsx",
+      "description": "React component: TeleportProgress",
+      "category": "src/components"
+    },
+    {
+      "name": "TeleportRepoMismatchDialog",
+      "file": "src/src/components/TeleportRepoMismatchDialog.tsx",
+      "description": "React component: TeleportRepoMismatchDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "TeleportResumeWrapper",
+      "file": "src/src/components/TeleportResumeWrapper.tsx",
+      "description": "React component: TeleportResumeWrapper",
+      "category": "src/components"
+    },
+    {
+      "name": "TeleportStash",
+      "file": "src/src/components/TeleportStash.tsx",
+      "description": "React component: TeleportStash",
+      "category": "src/components"
+    },
+    {
+      "name": "TextInput",
+      "file": "src/src/components/TextInput.tsx",
+      "description": "React component: TextInput",
+      "category": "input"
+    },
+    {
+      "name": "ThemePicker",
+      "file": "src/src/components/ThemePicker.tsx",
+      "description": "React component: ThemePicker",
+      "category": "settings"
+    },
+    {
+      "name": "ThinkingToggle",
+      "file": "src/src/components/ThinkingToggle.tsx",
+      "description": "React component: ThinkingToggle",
+      "category": "src/components"
+    },
+    {
+      "name": "TokenWarning",
+      "file": "src/src/components/TokenWarning.tsx",
+      "description": "React component: TokenWarning",
+      "category": "src/components"
+    },
+    {
+      "name": "ToolUseLoader",
+      "file": "src/src/components/ToolUseLoader.tsx",
+      "description": "React component: ToolUseLoader",
+      "category": "src/components"
+    },
+    {
+      "name": "TrustDialog",
+      "file": "src/src\\components\\TrustDialog/TrustDialog.tsx",
+      "description": "React component: TrustDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "utils",
+      "file": "src/src\\components\\TrustDialog/utils.ts",
+      "description": "React component: utils",
+      "category": "src"
+    },
+    {
+      "name": "OrderedList",
+      "file": "src/src\\components\\ui/OrderedList.tsx",
+      "description": "React component: OrderedList",
+      "category": "src"
+    },
+    {
+      "name": "OrderedListItem",
+      "file": "src/src\\components\\ui/OrderedListItem.tsx",
+      "description": "React component: OrderedListItem",
+      "category": "src"
+    },
+    {
+      "name": "TreeSelect",
+      "file": "src/src\\components\\ui/TreeSelect.tsx",
+      "description": "React component: TreeSelect",
+      "category": "src"
+    },
+    {
+      "name": "ValidationErrorsList",
+      "file": "src/src/components/ValidationErrorsList.tsx",
+      "description": "React component: ValidationErrorsList",
+      "category": "src/components"
+    },
+    {
+      "name": "VimTextInput",
+      "file": "src/src/components/VimTextInput.tsx",
+      "description": "React component: VimTextInput",
+      "category": "input"
+    },
+    {
+      "name": "VirtualMessageList",
+      "file": "src/src/components/VirtualMessageList.tsx",
+      "description": "React component: VirtualMessageList",
+      "category": "messages"
+    },
+    {
+      "name": "useWizard",
+      "file": "src/src\\components\\wizard/useWizard.ts",
+      "description": "React component: useWizard",
+      "category": "src"
+    },
+    {
+      "name": "WizardDialogLayout",
+      "file": "src/src\\components\\wizard/WizardDialogLayout.tsx",
+      "description": "React component: WizardDialogLayout",
+      "category": "dialogs"
+    },
+    {
+      "name": "WizardNavigationFooter",
+      "file": "src/src\\components\\wizard/WizardNavigationFooter.tsx",
+      "description": "React component: WizardNavigationFooter",
+      "category": "src"
+    },
+    {
+      "name": "WizardProvider",
+      "file": "src/src\\components\\wizard/WizardProvider.tsx",
+      "description": "React component: WizardProvider",
+      "category": "src"
+    },
+    {
+      "name": "WorkflowMultiselectDialog",
+      "file": "src/src/components/WorkflowMultiselectDialog.tsx",
+      "description": "React component: WorkflowMultiselectDialog",
+      "category": "dialogs"
+    },
+    {
+      "name": "WorktreeExitDialog",
+      "file": "src/src/components/WorktreeExitDialog.tsx",
+      "description": "React component: WorktreeExitDialog",
+      "category": "dialogs"
+    }
+  ]
+}

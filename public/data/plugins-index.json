@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "bundled",
+      "file": "src/plugins/bundled/",
+      "description": "Plugin: bundled"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "screens": [
+    {
+      "name": "Doctor",
+      "file": "src/screens/Doctor.tsx",
+      "description": "Screen component: Doctor",
+      "purpose": "Terminal UI screen"
+    },
+    {
+      "name": "REPL",
+      "file": "src/screens/REPL.tsx",
+      "description": "Screen component: REPL",
+      "purpose": "Terminal UI screen"
+    },
+    {
+      "name": "ResumeConversation",
+      "file": "src/screens/ResumeConversation.tsx",
+      "description": "Screen component: ResumeConversation",
+      "purpose": "Terminal UI screen"
+    }
+  ]
+}

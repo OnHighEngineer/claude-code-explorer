@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "name": "LocalMainSessionTask",
+      "type": "task",
+      "description": "Task: LocalMainSessionTask",
+      "file": "src/tasks/LocalMainSessionTask.ts"
+    },
+    {
+      "name": "pillLabel",
+      "type": "task",
+      "description": "Task: pillLabel",
+      "file": "src/tasks/pillLabel.ts"
+    },
+    {
+      "name": "stopTask",
+      "type": "task",
+      "description": "Task: stopTask",
+      "file": "src/tasks/stopTask.ts"
+    },
+    {
+      "name": "types",
+      "type": "task",
+      "description": "Task: types",
+      "file": "src/tasks/types.ts"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "flags": [
+    {
+      "name": "KAIROS",
+      "description": "Assistant/proactive mode",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "COORDINATOR_MODE",
+      "description": "Multi-agent coordination",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "VOICE_MODE",
+      "description": "Speech-to-text input",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "BRIDGE_MODE",
+      "description": "IDE/mobile client connectivity",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "WORKFLOW_SCRIPTS",
+      "description": "Executable workflow scripts",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "WEB_BROWSER_TOOL",
+      "description": "Browser automation (computer use)",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "SSH_REMOTE",
+      "description": "SSH remote execution",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "DIRECT_CONNECT",
+      "description": "cc:// URL protocol support",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "PROACTIVE",
+      "description": "Proactive suggestions",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "WORKTREE_MODE",
+      "description": "Git worktree support",
+      "defaultEnabled": true,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "POWERSHELL_TOOL",
+      "description": "Windows PowerShell execution",
+      "defaultEnabled": true,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "LSP_INTEGRATION",
+      "description": "Language Server Protocol",
+      "defaultEnabled": false,
+      "file": "src/flags.ts"
+    },
+    {
+      "name": "TRANSCRIPT_CLASSIFIER",
+      "description": "Feature flag: TRANSCRIPT_CLASSIFIER",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "LODESTONE",
+      "description": "Feature flag: LODESTONE",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "UPLOAD_USER_SETTINGS",
+      "description": "Feature flag: UPLOAD_USER_SETTINGS",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "BG_SESSIONS",
+      "description": "Feature flag: BG_SESSIONS",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "CHICAGO_MCP",
+      "description": "Feature flag: CHICAGO_MCP",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "KAIROS_CHANNELS",
+      "description": "Feature flag: KAIROS_CHANNELS",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "KAIROS_BRIEF",
+      "description": "Feature flag: KAIROS_BRIEF",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "UDS_INBOX",
+      "description": "Feature flag: UDS_INBOX",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "AGENT_MEMORY_SNAPSHOT",
+      "description": "Feature flag: AGENT_MEMORY_SNAPSHOT",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "CCR_MIRROR",
+      "description": "Feature flag: CCR_MIRROR",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    },
+    {
+      "name": "HARD_FAIL",
+      "description": "Feature flag: HARD_FAIL",
+      "defaultEnabled": false,
+      "file": "src/main.tsx"
+    }
+  ]
+}

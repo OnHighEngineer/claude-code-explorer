@@ -1,0 +1,10 @@
+{
+  "skills": [
+    {
+      "name": "bundled",
+      "file": "src/skills/bundled/",
+      "description": "Skill: bundled",
+      "category": "skill"
+    }
+  ]
+}

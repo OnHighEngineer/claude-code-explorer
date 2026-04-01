@@ -1,0 +1,496 @@
+{
+  "commands": [
+    {
+      "name": "add dir",
+      "file": "src\\commands\\add-dir\\index.ts",
+      "description": "Add a new working directory",
+      "category": "command"
+    },
+    {
+      "name": "advisor",
+      "file": "src\\commands\\advisor.ts",
+      "description": "Configure the advisor model",
+      "category": "command"
+    },
+    {
+      "name": "agents",
+      "file": "src\\commands\\agents\\index.ts",
+      "description": "Manage agent configurations",
+      "category": "command"
+    },
+    {
+      "name": "branch",
+      "file": "src\\commands\\branch\\index.ts",
+      "description": "Create a branch of the current conversation at this point",
+      "category": "command"
+    },
+    {
+      "name": "bridge",
+      "file": "src\\commands\\bridge\\index.ts",
+      "description": "Connect this terminal for remote-control sessions",
+      "category": "command"
+    },
+    {
+      "name": "bridge kick",
+      "file": "src\\commands\\bridge-kick.ts",
+      "description": "Inject bridge failure states for manual recovery testing",
+      "category": "command"
+    },
+    {
+      "name": "brief",
+      "file": "src\\commands\\brief.ts",
+      "description": "Toggle brief-only mode",
+      "category": "command"
+    },
+    {
+      "name": "btw",
+      "file": "src\\commands\\btw\\index.ts",
+      "description": "Ask a quick side question without interrupting the main conversation",
+      "category": "command"
+    },
+    {
+      "name": "chrome",
+      "file": "src\\commands\\chrome\\index.ts",
+      "description": "Claude in Chrome (Beta) settings",
+      "category": "command"
+    },
+    {
+      "name": "clear",
+      "file": "src\\commands\\clear\\index.ts",
+      "description": "Clear conversation history and free up context",
+      "category": "command"
+    },
+    {
+      "name": "color",
+      "file": "src\\commands\\color\\index.ts",
+      "description": "Set the prompt bar color for this session",
+      "category": "command"
+    },
+    {
+      "name": "commit",
+      "file": "src\\commands\\commit.ts",
+      "description": "Create a git commit",
+      "category": "command"
+    },
+    {
+      "name": "commit push pr",
+      "file": "src\\commands\\commit-push-pr.ts",
+      "description": "Commit, push, and open a PR",
+      "category": "command"
+    },
+    {
+      "name": "compact",
+      "file": "src\\commands\\compact\\index.ts",
+      "description": "Clear conversation history but keep a summary in context. Optional: /compact [instructions for summarization]",
+      "category": "command"
+    },
+    {
+      "name": "config",
+      "file": "src\\commands\\config\\index.ts",
+      "description": "Open config panel",
+      "category": "command"
+    },
+    {
+      "name": "context",
+      "file": "src\\commands\\context\\index.ts",
+      "description": "Visualize current context usage as a colored grid",
+      "category": "command"
+    },
+    {
+      "name": "copy",
+      "file": "src\\commands\\copy\\index.ts",
+      "description": "Copy Claude",
+      "category": "command"
+    },
+    {
+      "name": "cost",
+      "file": "src\\commands\\cost\\index.ts",
+      "description": "Show the total cost and duration of the current session",
+      "category": "command"
+    },
+    {
+      "name": "createMovedToPluginCommand",
+      "file": "src\\commands\\createMovedToPluginCommand.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "desktop",
+      "file": "src\\commands\\desktop\\index.ts",
+      "description": "Continue the current session in Claude Desktop",
+      "category": "command"
+    },
+    {
+      "name": "diff",
+      "file": "src\\commands\\diff\\index.ts",
+      "description": "View uncommitted changes and per-turn diffs",
+      "category": "command"
+    },
+    {
+      "name": "doctor",
+      "file": "src\\commands\\doctor\\index.ts",
+      "description": "Diagnose and verify your Claude Code installation and settings",
+      "category": "command"
+    },
+    {
+      "name": "effort",
+      "file": "src\\commands\\effort\\index.ts",
+      "description": "Set effort level for model usage",
+      "category": "command"
+    },
+    {
+      "name": "exit",
+      "file": "src\\commands\\exit\\index.ts",
+      "description": "Exit the REPL",
+      "category": "command"
+    },
+    {
+      "name": "export",
+      "file": "src\\commands\\export\\index.ts",
+      "description": "Export the current conversation to a file or clipboard",
+      "category": "command"
+    },
+    {
+      "name": "extra usage",
+      "file": "src\\commands\\extra-usage\\index.ts",
+      "description": "Configure extra usage to keep working when limits are hit",
+      "category": "command"
+    },
+    {
+      "name": "fast",
+      "file": "src\\commands\\fast\\index.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "feedback",
+      "file": "src\\commands\\feedback\\index.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "files",
+      "file": "src\\commands\\files\\index.ts",
+      "description": "List all files currently in context",
+      "category": "command"
+    },
+    {
+      "name": "heapdump",
+      "file": "src\\commands\\heapdump\\index.ts",
+      "description": "Dump the JS heap to ~/Desktop",
+      "category": "command"
+    },
+    {
+      "name": "help",
+      "file": "src\\commands\\help\\index.ts",
+      "description": "Show help and available commands",
+      "category": "command"
+    },
+    {
+      "name": "hooks",
+      "file": "src\\commands\\hooks\\index.ts",
+      "description": "View hook configurations for tool events",
+      "category": "command"
+    },
+    {
+      "name": "ide",
+      "file": "src\\commands\\ide\\index.ts",
+      "description": "Manage IDE integrations and show status",
+      "category": "command"
+    },
+    {
+      "name": "init",
+      "file": "src\\commands\\init.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "init verifiers",
+      "file": "src\\commands\\init-verifiers.ts",
+      "description": "Create verifier skill(s) for automated verification of code changes",
+      "category": "command"
+    },
+    {
+      "name": "insights",
+      "file": "src\\commands\\insights.ts",
+      "description": ": ",
+      "category": "command"
+    },
+    {
+      "name": "install",
+      "file": "src\\commands\\install.tsx",
+      "description": "Install Claude Code native build",
+      "category": "command"
+    },
+    {
+      "name": "install github app",
+      "file": "src\\commands\\install-github-app\\index.ts",
+      "description": "Set up Claude GitHub Actions for a repository",
+      "category": "command"
+    },
+    {
+      "name": "install slack app",
+      "file": "src\\commands\\install-slack-app\\index.ts",
+      "description": "Install the Claude Slack app",
+      "category": "command"
+    },
+    {
+      "name": "keybindings",
+      "file": "src\\commands\\keybindings\\index.ts",
+      "description": "Open or create your keybindings configuration file",
+      "category": "command"
+    },
+    {
+      "name": "login",
+      "file": "src\\commands\\login\\index.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "logout",
+      "file": "src\\commands\\logout\\index.ts",
+      "description": "Sign out from your Anthropic account",
+      "category": "command"
+    },
+    {
+      "name": "mcp",
+      "file": "src\\commands\\mcp\\index.ts",
+      "description": "Manage MCP servers",
+      "category": "command"
+    },
+    {
+      "name": "memory",
+      "file": "src\\commands\\memory\\index.ts",
+      "description": "Edit Claude memory files",
+      "category": "command"
+    },
+    {
+      "name": "mobile",
+      "file": "src\\commands\\mobile\\index.ts",
+      "description": "Show QR code to download the Claude mobile app",
+      "category": "command"
+    },
+    {
+      "name": "model",
+      "file": "src\\commands\\model\\index.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "output style",
+      "file": "src\\commands\\output-style\\index.ts",
+      "description": "Deprecated: use /config to change output style",
+      "category": "command"
+    },
+    {
+      "name": "passes",
+      "file": "src\\commands\\passes\\index.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "permissions",
+      "file": "src\\commands\\permissions\\index.ts",
+      "description": "Manage allow & deny tool permission rules",
+      "category": "command"
+    },
+    {
+      "name": "plan",
+      "file": "src\\commands\\plan\\index.ts",
+      "description": "Enable plan mode or view the current session plan",
+      "category": "command"
+    },
+    {
+      "name": "plugin",
+      "file": "src\\commands\\plugin\\index.tsx",
+      "description": "Manage Claude Code plugins",
+      "category": "command"
+    },
+    {
+      "name": "pr_comments",
+      "file": "src\\commands\\pr_comments\\index.ts",
+      "description": "Get comments from a GitHub pull request",
+      "category": "command"
+    },
+    {
+      "name": "privacy settings",
+      "file": "src\\commands\\privacy-settings\\index.ts",
+      "description": "View and update your privacy settings",
+      "category": "command"
+    },
+    {
+      "name": "rate limit options",
+      "file": "src\\commands\\rate-limit-options\\index.ts",
+      "description": "Show options when rate limit is reached",
+      "category": "command"
+    },
+    {
+      "name": "release notes",
+      "file": "src\\commands\\release-notes\\index.ts",
+      "description": "View release notes",
+      "category": "command"
+    },
+    {
+      "name": "reload plugins",
+      "file": "src\\commands\\reload-plugins\\index.ts",
+      "description": "Activate pending plugin changes in the current session",
+      "category": "command"
+    },
+    {
+      "name": "remote env",
+      "file": "src\\commands\\remote-env\\index.ts",
+      "description": "Configure the default remote environment for teleport sessions",
+      "category": "command"
+    },
+    {
+      "name": "remote setup",
+      "file": "src\\commands\\remote-setup\\index.ts",
+      "description": "Setup Claude Code on the web (requires connecting your GitHub account)",
+      "category": "command"
+    },
+    {
+      "name": "rename",
+      "file": "src\\commands\\rename\\index.ts",
+      "description": "Rename the current conversation",
+      "category": "command"
+    },
+    {
+      "name": "resume",
+      "file": "src\\commands\\resume\\index.ts",
+      "description": "Resume a previous conversation",
+      "category": "command"
+    },
+    {
+      "name": "review",
+      "file": "src\\commands\\review.ts",
+      "description": "Review a pull request",
+      "category": "command"
+    },
+    {
+      "name": "rewind",
+      "file": "src\\commands\\rewind\\index.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "sandbox toggle",
+      "file": "src\\commands\\sandbox-toggle\\index.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "security review",
+      "file": "src\\commands\\security-review.ts",
+      "description": "Complete a security review of the pending changes on the current branch",
+      "category": "command"
+    },
+    {
+      "name": "session",
+      "file": "src\\commands\\session\\index.ts",
+      "description": "Show remote session URL and QR code",
+      "category": "command"
+    },
+    {
+      "name": "skills",
+      "file": "src\\commands\\skills\\index.ts",
+      "description": "List available skills",
+      "category": "command"
+    },
+    {
+      "name": "stats",
+      "file": "src\\commands\\stats\\index.ts",
+      "description": "Show your Claude Code usage statistics and activity",
+      "category": "command"
+    },
+    {
+      "name": "status",
+      "file": "src\\commands\\status\\index.ts",
+      "description": "Show Claude Code status including version, model, account, API connectivity, and tool statuses",
+      "category": "command"
+    },
+    {
+      "name": "statusline",
+      "file": "src\\commands\\statusline.tsx",
+      "description": "Set up Claude Code",
+      "category": "command"
+    },
+    {
+      "name": "stickers",
+      "file": "src\\commands\\stickers\\index.ts",
+      "description": "Order Claude Code stickers",
+      "category": "command"
+    },
+    {
+      "name": "tag",
+      "file": "src\\commands\\tag\\index.ts",
+      "description": "Toggle a searchable tag on the current session",
+      "category": "command"
+    },
+    {
+      "name": "tasks",
+      "file": "src\\commands\\tasks\\index.ts",
+      "description": "List and manage background tasks",
+      "category": "command"
+    },
+    {
+      "name": "terminalSetup",
+      "file": "src\\commands\\terminalSetup\\index.ts",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "theme",
+      "file": "src\\commands\\theme\\index.ts",
+      "description": "Change the theme",
+      "category": "command"
+    },
+    {
+      "name": "thinkback",
+      "file": "src\\commands\\thinkback\\index.ts",
+      "description": "Your 2025 Claude Code Year in Review",
+      "category": "command"
+    },
+    {
+      "name": "thinkback play",
+      "file": "src\\commands\\thinkback-play\\index.ts",
+      "description": "Play the thinkback animation",
+      "category": "command"
+    },
+    {
+      "name": "ultraplan",
+      "file": "src\\commands\\ultraplan.tsx",
+      "description": "A Claude Code command",
+      "category": "command"
+    },
+    {
+      "name": "upgrade",
+      "file": "src\\commands\\upgrade\\index.ts",
+      "description": "Upgrade to Max for higher rate limits and more Opus",
+      "category": "command"
+    },
+    {
+      "name": "usage",
+      "file": "src\\commands\\usage\\index.ts",
+      "description": "Show plan usage limits",
+      "category": "command"
+    },
+    {
+      "name": "version",
+      "file": "src\\commands\\version.ts",
+      "description": "Print the version this session is running (not what autoupdate downloaded)",
+      "category": "command"
+    },
+    {
+      "name": "vim",
+      "file": "src\\commands\\vim\\index.ts",
+      "description": "Toggle between Vim and Normal editing modes",
+      "category": "command"
+    },
+    {
+      "name": "voice",
+      "file": "src\\commands\\voice\\index.ts",
+      "description": "Toggle voice mode",
+      "category": "command"
+    }
+  ]
+}

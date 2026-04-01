@@ -1,0 +1,60 @@
+import type { PageNode } from '@/types'
+
+export const pageTree: PageNode[] = [
+  { id: 'nav-overview', title: 'Overview', icon: 'Home', pageId: 'overview' },
+  {
+    id: 'nav-architecture',
+    title: 'Architecture',
+    icon: 'Layers',
+    pageId: 'architecture',
+    children: [
+      { id: 'nav-arch-system', title: 'System Design', pageId: 'architecture' },
+      { id: 'nav-arch-runtime', title: 'Runtime & Build', pageId: 'architecture' },
+      { id: 'nav-arch-multi', title: 'Multi-Client', pageId: 'multi-client' },
+    ],
+  },
+  {
+    id: 'nav-core',
+    title: 'Core Engine',
+    icon: 'Cpu',
+    children: [
+      { id: 'nav-core-entry', title: 'Entry Point & CLI', pageId: 'core-engine' },
+      { id: 'nav-core-repl', title: 'REPL Screen', pageId: 'screens' },
+      { id: 'nav-core-query', title: 'QueryEngine', pageId: 'core-engine' },
+      { id: 'nav-core-state', title: 'State Management', pageId: 'core-engine' },
+      { id: 'nav-core-ink', title: 'Ink Rendering', pageId: 'core-engine' },
+    ],
+  },
+  {
+    id: 'nav-tools',
+    title: 'Tools',
+    icon: 'Wrench',
+    pageId: 'tools',
+    children: [
+      { id: 'nav-tools-all', title: 'All Tools', pageId: 'tools' },
+      { id: 'nav-tools-bash', title: 'Bash Tool', pageId: 'tools' },
+      { id: 'nav-tools-file', title: 'File Tools', pageId: 'tools' },
+      { id: 'nav-tools-web', title: 'Web Tools', pageId: 'tools' },
+      { id: 'nav-tools-agent', title: 'Agent & Task Tools', pageId: 'tools' },
+    ],
+  },
+  {
+    id: 'nav-commands',
+    title: 'Commands',
+    icon: 'Command',
+    pageId: 'commands',
+  },
+  { id: 'nav-screens', title: 'Screens', icon: 'Monitor', pageId: 'screens' },
+  { id: 'nav-components', title: 'Components', icon: 'Puzzle', pageId: 'components' },
+  { id: 'nav-services', title: 'Services', icon: 'Server', pageId: 'services' },
+  { id: 'nav-tasks', title: 'Tasks', icon: 'ListTodo', pageId: 'tasks' },
+  { id: 'nav-skills', title: 'Skills', icon: 'Zap', pageId: 'skills' },
+  { id: 'nav-plugins', title: 'Plugins', icon: 'Package', pageId: 'plugins' },
+  { id: 'nav-mcp', title: 'MCP', icon: 'Network', pageId: 'mcp' },
+  { id: 'nav-permissions', title: 'Permissions', icon: 'Shield', pageId: 'permissions' },
+  { id: 'nav-settings', title: 'Settings', icon: 'Settings', pageId: 'settings' },
+  { id: 'nav-flags', title: 'Feature Flags', icon: 'Flag', pageId: 'feature-flags' },
+  { id: 'nav-flow', title: 'Execution Flow', icon: 'GitBranch', pageId: 'flow' },
+  { id: 'nav-learning', title: 'Learning', icon: 'BookOpen', pageId: 'learning' },
+  { id: 'nav-files', title: 'Files', icon: 'FileCode', pageId: 'files' },
+]

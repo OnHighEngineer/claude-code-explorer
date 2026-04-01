@@ -1,0 +1,244 @@
+{
+  "tools": [
+    {
+      "name": "Agent",
+      "file": "src\\tools\\AgentTool\\AgentTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "AskUserQuestion",
+      "file": "src\\tools\\AskUserQuestionTool\\AskUserQuestionTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "Bash",
+      "file": "src\\tools\\BashTool\\BashTool.tsx",
+      "description": "z.string().optional().describe(`Clear, concise description of what this command does in active voice. Never use words like \"complex\" or \"risk\" in the description - just describe what it does.",
+      "category": "tool"
+    },
+    {
+      "name": "Brief",
+      "file": "src\\tools\\BriefTool\\BriefTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "Config",
+      "file": "src\\tools\\ConfigTool\\ConfigTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "EnterPlanMode",
+      "file": "src\\tools\\EnterPlanModeTool\\EnterPlanModeTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "EnterWorktree",
+      "file": "src\\tools\\EnterWorktreeTool\\EnterWorktreeTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "ExitPlanMode",
+      "file": "src\\tools\\ExitPlanModeTool\\ExitPlanModeTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "ExitWorktree",
+      "file": "src\\tools\\ExitWorktreeTool\\ExitWorktreeTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "FileEdit",
+      "file": "src\\tools\\FileEditTool\\FileEditTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "FileRead",
+      "file": "src\\tools\\FileReadTool\\FileReadTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "FileWrite",
+      "file": "src\\tools\\FileWriteTool\\FileWriteTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "Glob",
+      "file": "src\\tools\\GlobTool\\GlobTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "Grep",
+      "file": "src\\tools\\GrepTool\\GrepTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "ListMcpResources",
+      "file": "src\\tools\\ListMcpResourcesTool\\ListMcpResourcesTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "LSP",
+      "file": "src\\tools\\LSPTool\\LSPTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "MCP",
+      "file": "src\\tools\\MCPTool\\MCPTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "McpAuth",
+      "file": "src\\tools\\McpAuthTool\\McpAuthTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "NotebookEdit",
+      "file": "src\\tools\\NotebookEditTool\\NotebookEditTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "PowerShell",
+      "file": "src\\tools\\PowerShellTool\\PowerShellTool.tsx",
+      "description": "z.string().optional().describe('Clear, concise description of what this command does in active voice.'),",
+      "category": "tool"
+    },
+    {
+      "name": "ReadMcpResource",
+      "file": "src\\tools\\ReadMcpResourceTool\\ReadMcpResourceTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "RemoteTrigger",
+      "file": "src\\tools\\RemoteTriggerTool\\RemoteTriggerTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "REPL",
+      "file": "src\\tools\\REPLTool\\REPLTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "ScheduleCron",
+      "file": "src\\tools\\ScheduleCronTool\\ScheduleCronTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "SendMessage",
+      "file": "src\\tools\\SendMessageTool\\SendMessageTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "Skill",
+      "file": "src\\tools\\SkillTool\\SkillTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "Sleep",
+      "file": "src\\tools\\SleepTool\\SleepTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "SyntheticOutput",
+      "file": "src\\tools\\SyntheticOutputTool\\SyntheticOutputTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TaskCreate",
+      "file": "src\\tools\\TaskCreateTool\\TaskCreateTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TaskGet",
+      "file": "src\\tools\\TaskGetTool\\TaskGetTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TaskList",
+      "file": "src\\tools\\TaskListTool\\TaskListTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TaskOutput",
+      "file": "src\\tools\\TaskOutputTool\\TaskOutputTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TaskStop",
+      "file": "src\\tools\\TaskStopTool\\TaskStopTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TaskUpdate",
+      "file": "src\\tools\\TaskUpdateTool\\TaskUpdateTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TeamCreate",
+      "file": "src\\tools\\TeamCreateTool\\TeamCreateTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TeamDelete",
+      "file": "src\\tools\\TeamDeleteTool\\TeamDeleteTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "TodoWrite",
+      "file": "src\\tools\\TodoWriteTool\\TodoWriteTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "ToolSearch",
+      "file": "src\\tools\\ToolSearchTool\\ToolSearchTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "WebFetch",
+      "file": "src\\tools\\WebFetchTool\\WebFetchTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    },
+    {
+      "name": "WebSearch",
+      "file": "src\\tools\\WebSearchTool\\WebSearchTool.tsx",
+      "description": "A Claude Code tool",
+      "category": "tool"
+    }
+  ]
+}
