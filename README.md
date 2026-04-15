@@ -242,20 +242,9 @@ Edit `src/styles/globals.css` and `tailwind.config.ts`.
 
 - Load time: < 2 seconds
 - Search results: < 500ms
-- Fully offline
+- Fully offli
 - Works on older browsers (ES2020+)
 
 ## License
 
 This project is built to explore and understand the Claude Code codebase for educational purposes.
-
-## Contributing
-
-Suggestions and improvements welcome!
-
-## Support
-
-For issues or questions:
-1. Check the "Learning Paths" section
-2. Use "Search" to find relevant concepts
-3. Explore "Execution Flow" and "Architecture" diagrams
